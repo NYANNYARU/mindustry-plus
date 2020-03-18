@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "iron-pressor",
+	"description": "press iron",
+	"outputItem": {"item": "iron-plate", "amount": 1},
+	"size": 2,
+	"health": 200,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{ "item": "iron", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 75 },
+		{ "item": "lead", "amount": 100 },
+    { "item": "iron", "amount": 25}
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

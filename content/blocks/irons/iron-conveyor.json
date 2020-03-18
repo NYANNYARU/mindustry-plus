@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "iron-conveyor",
+	"description": "iron-conveyor",
+	"requirements": [
+		{"item": "copper", "amount": 1},
+    {"item": "lead", "amount": 1},
+		{"item": "iron-plate", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.125,
+	"research": "titanium-conveyor"
+}

@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "diamond-conveyor",
+	"description": "diamond-conveyor",
+	"requirements": [
+		{"item": "copper", "amount": 1},
+    {"item": "lead", "amount": 1},
+		{"item": "diamond-plate", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.2,
+	"research": "gold-conveyor"
+}

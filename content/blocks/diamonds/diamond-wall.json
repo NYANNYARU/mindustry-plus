@@ -1,0 +1,15 @@
+{
+	"type": "DeflectorWall",
+	"name": "diamond-wall",
+	"description": "diamond-wall",
+	"health": 1250,
+	"size": 1,
+	"hitTime" : 10,
+	"maxDamageDeflect": 50,
+	"buildCostMultiplier": 15,
+	"requirements": [
+		{ "item": "diamond", "amount": 10 }
+	],
+	"research": "gold-wall",
+	"category": "defense"
+}

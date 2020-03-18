@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "gold-conveyor",
+	"description": "gold-conveyor",
+	"requirements": [
+		{"item": "copper", "amount": 1},
+    {"item": "lead", "amount": 1},
+		{"item": "gold-plate", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.165,
+	"research": "iron-conveyor"
+}

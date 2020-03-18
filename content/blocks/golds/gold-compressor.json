@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "gold-compressor",
+	"description": "compress gold-plates",
+	"outputItem": {"item": "gold-high-density-plate", "amount": 1},
+	"size": 2,
+	"health": 200,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+				{ "item": "gold-plate", "amount": 5 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 75 },
+		{ "item": "lead", "amount": 100 },
+    { "item": "gold-plate", "amount": 15 }
+	],
+	"category": "crafting",
+	"research": "gold-pressor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

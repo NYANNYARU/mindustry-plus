@@ -1,0 +1,41 @@
+{
+	"type": "GenericSmelter",
+	"name": "High-Pressure-Synthesis-Machine",
+	"description": "[#FF0000]High-Pressure-Synthesis-Machine. [#00FFFF]make-diamonds!",
+	"liquidCapacity": 100,
+	"itemCapacity": 20,
+	"health": 2000,
+	"outputItem": {"item": "diamond", "amount": 1},
+	"size": 5,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 180,
+	"flameColor": "ff5555",
+	"buildCostMultiplier": 15,
+	"updateEffect": "flakExplosion",
+	"consumes": {
+		"power": 7.5,
+    "liquid": {
+			"liquid": "slag",
+			"amount": 0.277777
+		},
+		"items": {
+			"items": [
+				{ "item": "graphite", "amount": 10 },
+				{ "item": "titanium", "amount": 5 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "gold", "amount": 100 },
+    { "item": "iron", "amount": 150 },
+    { "item": "silicon", "amount": 150 },
+    { "item": "metaglass", "amount": 25 },
+    { "item": "titanium", "amount": 50 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"research": "sand-gold"
+}

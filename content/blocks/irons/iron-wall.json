@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "iron-wall",
+	"description": "iron-wall",
+	"health": 750,
+	"size": 1,
+	"buildCostMultiplier": 7.5,
+	"requirements": [
+		{ "item": "iron", "amount": 6 }
+	],
+	"research": "copper-wall",
+	"category": "defense"
+}

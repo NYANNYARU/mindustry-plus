@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "large-gold-wall",
+	"description": "large-gold-wall",
+	"health": 4000,
+	"size": 2,
+	"buildCostMultiplier": 10,
+	"requirements": [
+		{ "item": "gold", "amount": 30 }
+	],
+	"research": "gold-wall",
+	"category": "defense"
+}

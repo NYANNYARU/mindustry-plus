@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "gold-pressor",
+	"description": "press gold",
+	"outputItem": {"item": "gold-plate", "amount": 1},
+	"size": 2,
+	"health": 200,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{ "item": "gold", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 75 },
+		{ "item": "lead", "amount": 100 },
+    { "item": "iron-plate", "amount": 10 },
+    { "item": "gold", "amount": 25 }
+	],
+	"category": "crafting",
+	"research": "iron-pressor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

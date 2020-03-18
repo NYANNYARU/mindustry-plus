@@ -1,0 +1,14 @@
+{
+	"type": "SurgeWall",
+	"name": "large-diagold-alloy-wall",
+	"description": "large-diagold-alloy-wall",
+	"health": 6000,
+	"size": 2,
+	"lightningChance": 0.25,
+	"buildCostMultiplier": 20,
+	"requirements": [
+		{ "item": "diagold-alloy", "amount": 30 }
+	],
+	"research": "diagold-alloy-wall",
+	"category": "defense"
+}

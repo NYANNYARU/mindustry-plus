@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "sand-sifter:gold",
+	"description": "sand -- gold",
+	"outputItem": {"item": "gold", "amount": 1},
+	"size": 3,
+	"health": 200,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 200,
+	"craftTime": 80,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 100 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 150 },
+		{ "item": "lead", "amount": 200 }
+	],
+	"category": "crafting",
+	"research": "sand-iron",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

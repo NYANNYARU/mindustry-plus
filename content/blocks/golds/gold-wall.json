@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "gold-wall",
+	"description": "gold-wall",
+	"health": 1000,
+	"size": 1,
+	"buildCostMultiplier": 10,
+	"requirements": [
+		{ "item": "gold", "amount": 10 }
+	],
+	"research": "thorium-wall",
+	"category": "defense"
+}

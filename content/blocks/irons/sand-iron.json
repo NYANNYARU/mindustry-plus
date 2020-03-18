@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "sand-sifter:iron",
+	"description": "sand -- iron",
+	"outputItem": {"item": "iron", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 100,
+	"health": 200,
+	"craftTime": 80,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 50 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 150 },
+		{ "item": "lead", "amount": 150 }
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

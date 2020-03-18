@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "diamond-compressor",
+	"description": "compress diamond-plates",
+	"outputItem": {"item": "diamond-high-density-plate", "amount": 1},
+	"size": 2,
+	"health": 200,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+				{ "item": "diamond-plate", "amount": 5 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 75 },
+		{ "item": "lead", "amount": 100 },
+    { "item": "diamond-plate", "amount": 15 }
+	],
+	"category": "crafting",
+	"research": "diamond-pressor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

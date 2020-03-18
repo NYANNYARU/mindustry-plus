@@ -1,0 +1,25 @@
+{
+	"name": "iron-drill",
+	"description": "iron-drill",
+	"type": "Drill",
+	"size": 3,
+	"tier": 4,
+	"drillTime": 110,
+  "requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "lead", "amount": 100 },
+		{ "item": "iron-high-density-plate", "amount": 35 },
+	],
+  "consumes": {
+		"power": 2.5,
+		"liquid": {
+			"liquid": "water", "amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"category": "production",
+	"research": "laser-drill"
+}

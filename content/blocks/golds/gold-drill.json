@@ -1,0 +1,25 @@
+{
+	"name": "gold-drill",
+	"description": "gold-drill",
+	"type": "Drill",
+	"size": 3,
+	"tier": 5,
+	"drillTime": 75,
+  "requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "lead", "amount": 100 },
+		{ "item": "gold-high-density-plate", "amount": 50 },
+	],
+  "consumes": {
+		"power": 3,
+		"liquid": {
+			"liquid": "water", "amount": 0.12,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"category": "production",
+	"research": "iron-drill"
+}
