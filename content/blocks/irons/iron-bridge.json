@@ -1,5 +1,5 @@
 {
-        "type": "ItemBridge",
+        "type": "ExtendingItemBridge",
         "name": "iron-bridge",
         "description": "iron-bridge",
 	"hasItems": true,
