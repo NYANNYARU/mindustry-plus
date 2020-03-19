@@ -7,7 +7,7 @@
   "firingMoveFract": 0.5,
   "shootDuration": 300,
   "coolantMultiplier": 1.5,
-  "bullet": "meltdownLaser"
+  "bullet": "meltdownLaser",
   "consumes": {
     "power": 16.66666666
   },
