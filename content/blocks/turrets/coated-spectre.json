@@ -27,7 +27,7 @@
       "damage": 100,
       "ammoMultiplier": 3
     }
-  }
+  },
   "category": "turret",
   "research": "spectre"
 }
