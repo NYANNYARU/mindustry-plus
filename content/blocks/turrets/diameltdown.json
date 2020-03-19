@@ -3,7 +3,6 @@
   "name": "diamond-meltdown",
   "description": "diamond meltdown",
   "heatColor": "ff0000",
-  "shootEffect":
   "hasPower": true,
   "firingMoveFract": 0.5,
   "shootDuration": 300,
