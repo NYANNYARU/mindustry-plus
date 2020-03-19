@@ -2,6 +2,8 @@
   "type": "LaserTurret",
   "name": "diamond-meltdown",
   "description": "diamond meltdown",
+  "health": 7500,
+  "size": 4,
   "heatColor": "ff0000",
   "hasPower": true,
   "firingMoveFract": 0.5,
