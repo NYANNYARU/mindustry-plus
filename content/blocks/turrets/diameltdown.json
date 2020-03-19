@@ -11,10 +11,10 @@
   "heatColor": "ff0000",
   "hasPower": true,
   "firingMoveFract": 0.5,
-  "shootDuration": 300,
+  "shootDuration": 500,
   "shootType": "meltdownLaser",
   "powerUse": 16.666666,
-  "coolantMultiplier": 10,
+  "coolantMultiplier": 50,
   "requirements": [
 		{ "item": "copper", "amount": 750 },
 		{ "item": "lead", "amount": 7505 },
