@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "diamond",
+	"description": "DIAMOND",
+	"hardness": 5,
+	"color": "00FFFF"
+}

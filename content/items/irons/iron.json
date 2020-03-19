@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "iron",
+	"description": "IRON",
+	"color": "CCCCCC",
+	"hardness": 3
+}
