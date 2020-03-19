@@ -6,5 +6,27 @@
   "shots": 2,
   "targetAir": true,
   "targetGround": true,
-  "shootEffect"
+  "shootEffect": "shootBigSmoke",
+  "shootSound": "shootBig",
+  "inaccuracy": "1",
+  "range": 200,
+  "ammo": {
+    "graphite": {
+      "type": "standardThoriumBig",
+      "damage": 65,
+      "ammoMultiplier": 3
+    },
+    "pyratite": {
+      "type": "standardIncendiaryBig",
+      "damage": "60",
+      "ammoMultiplier": 3
+    },
+    "thorium": {
+      "type": "standardThoriumBig",
+      "damage": 100,
+      "ammoMultiplier": 3
+    }
+  }
+  "category": "turret",
+  "research": "spector"
 }
