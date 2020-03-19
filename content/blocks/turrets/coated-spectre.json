@@ -13,17 +13,17 @@
   "range": 200,
   "ammo": {
     "graphite": {
-      "bullet": "standardThoriumBig",
+      "name": "standardThoriumBig",
       "damage": 65,
       "ammoMultiplier": 3
     },
     "pyratite": {
-      "bullet": "standardIncendiaryBig",
+      "name": "standardIncendiaryBig",
       "damage": "60",
       "ammoMultiplier": 3
     },
     "thorium": {
-      "bullet": "standardThoriumBig",
+      "name": "standardThoriumBig",
       "damage": 100,
       "ammoMultiplier": 3
     }
