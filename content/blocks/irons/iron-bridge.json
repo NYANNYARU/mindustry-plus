@@ -1,7 +1,7 @@
 {
+    "type": "ItemBridge",
     "name": "iron-bridge",
     "description": "iron-bridge",
-    "type": "ItemBridge",
     "range": 17,
     "consumes": {
 		"power": 0.25,
