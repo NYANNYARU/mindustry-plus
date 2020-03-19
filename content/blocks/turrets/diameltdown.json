@@ -14,6 +14,7 @@
   "shootDuration": 300,
   "shootType": "meltdownLaser",
   "powerUse": 16.666666,
+  "coolantMultiplier": 10,
   "requirements": [
 		{ "item": "copper", "amount": 750 },
 		{ "item": "lead", "amount": 7505 },
