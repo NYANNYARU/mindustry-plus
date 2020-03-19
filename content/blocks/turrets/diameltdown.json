@@ -7,11 +7,11 @@
   "range": 250,
   "reload": 100,
   "size": 4,
+  "targetAir": true,
   "heatColor": "ff0000",
   "hasPower": true,
   "firingMoveFract": 0.5,
   "shootDuration": 25,
-  "coolantMultiplier": 1.5,
   "shootType": "meltdownLaser",
   "powerUse": 16.666666,
   "requirements": [
