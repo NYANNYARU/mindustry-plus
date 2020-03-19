@@ -1,0 +1,17 @@
+{
+	"name": "gold-bridge",
+	"description": "gold-bridge",
+	"type": "BufferedItemBridge",
+	"health": 300,
+	"size": 1,
+	"range": 20,
+	"speed": 50,
+	"bufferCapacity": 20,
+	"requirements": [
+		{ "item": "copper", "amount": 5 },
+    { "item": "lead", "amount": 5 },
+    { "item": "gold-plate", "amount": 4},
+	],
+	"category": "distribution",
+	"research": "iron-bridge"
+}
