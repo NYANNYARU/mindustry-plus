@@ -3,7 +3,8 @@
   "name": "diamond-meltdown",
   "description": "diamond meltdown",
   "health": 7500,
-  "rang"
+  "shootSound": "laserbig",
+  "range": 250,
   "size": 4,
   "heatColor": "ff0000",
   "hasPower": true,
