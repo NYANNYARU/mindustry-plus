@@ -22,7 +22,7 @@
     { "item": "iron-high-density-plate", "amount": 500 },
     { "item": "gold-high-density-plate", "amount": 500 },
     { "item": "diamond-high-density-plate", "amount": 500},
-    { "item", "diagold-alloy", "amount": 250 }
+    { "item": "diagold-alloy", "amount": 250 }
   ],
   "category": "turret",
   "research": "meltdown"
