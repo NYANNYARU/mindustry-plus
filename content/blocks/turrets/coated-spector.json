@@ -1,0 +1,10 @@
+{
+  "type": "DoubleTurret",
+  "name": "coated-spector",
+  "description": "coated spector",
+  "shotWidth": 10,
+  "shots": 2,
+  "targetAir": true,
+  "targetGround": true,
+  "shootEffect"
+}
