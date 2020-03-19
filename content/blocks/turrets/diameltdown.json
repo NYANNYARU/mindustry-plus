@@ -9,7 +9,7 @@
   "heatColor": "ff0000",
   "hasPower": true,
   "firingMoveFract": 0.5,
-  "shootDuration": ,
+  "shootDuration": 100,
   "coolantMultiplier": 1.5,
   "shootType": "meltdownLaser",
   "powerUse": 16.666666,
