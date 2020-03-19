@@ -3,11 +3,12 @@
   "name": "diamond-meltdown",
   "description": "diamond meltdown",
   "health": 7500,
+  "rang"
   "size": 4,
   "heatColor": "ff0000",
   "hasPower": true,
   "firingMoveFract": 0.5,
-  "shootDuration": 300,
+  "shootDuration": ,
   "coolantMultiplier": 1.5,
   "shootType": "meltdownLaser",
   "powerUse": 16.666666,
