@@ -1,11 +1,13 @@
 {
-    "type": "ItemBridge",
-    "name": "iron-bridge",
-    "description": "iron-bridge",
-    "range": 17,
-    "consumes": {
+        "type": "BufferedItemBridge",
+        "name": "iron-bridge",
+        "description": "iron-bridge",
+	"hasItems": true,
+	"hasPower": true,
+        "range": 17,
+        "consumes": {
 		"power": 0.25,
-    },
-    "category": "distribution",
-    "research": "phase-conveyor",
+        },
+        "category": "distribution",
+        "research": "phase-conveyor",
 }
