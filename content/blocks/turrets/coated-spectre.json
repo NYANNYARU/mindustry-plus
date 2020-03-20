@@ -17,7 +17,7 @@
       "lifetime": 25,
       "type": "BasicBulletType",
       "bulletSqrite": "standardThoriumBig",
-      "speed": 10,
+      "speed": 6,
       "damage": 65,
       "ammoMultiplier": 5
     },
@@ -25,7 +25,7 @@
       "lifetime": 25,
       "type": "BasicBulletType",
       "name": "standardIncendiaryBig",
-      "speed": 10,
+      "speed": 6,
       "incendAmount": 2.5,
       "damage": "60",
       "ammoMultiplier": 5
@@ -34,7 +34,7 @@
       "lifetime": 25,
       "type": "BasicBulletType",
       "bulletSprite": "standardThoriumBig",
-      "speed": 10,
+      "speed": 6,
       "damage": 100,
       "ammoMultiplier": 5
     }
