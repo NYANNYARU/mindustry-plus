@@ -10,24 +10,27 @@
   "shootEffect": "shootBigSmoke",
   "shootSound": "shootBig",
   "inaccuracy": "1",
-  "range": 200,
+  "range": 250,
   "ammo": {
     "graphite": {
       "type": "BasicBulletType",
       "bulletSqrite": "standardThoriumBig",
+      "speed": 250,
       "damage": 65,
       "ammoMultiplier": 3
     },
     "pyratite": {
       "type": "BasicBulletType",
       "bulletSprite": "standardIncendiaryBig",
-      "incendAmount": 5,
+      "speed": 250,
+      "incendAmount": 2.5,
       "damage": "60",
       "ammoMultiplier": 3
     },
     "thorium": {
       "type": "BasicBulletType",
       "bulletSprite": "standardThoriumBig",
+      "speed": 250,
       "damage": 100,
       "ammoMultiplier": 3
     }
