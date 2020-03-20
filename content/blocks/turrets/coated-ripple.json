@@ -1,5 +1,5 @@
 {
-  "type": "BombBulletType",
+  "type": "ArtilleryTurret",
   "name": "coated-ripple",
   "heatColor": "ff0000",
   "size": 3,
@@ -11,7 +11,7 @@
   "shots": 5,
   "ammo": {
     "graphite": {
-      "type": "FlakBulletType",
+      "type": "BombBulletType",
       "speed": 2.5,
       "fragVelocityMin": 0.5,
       "fragVelocityMax": 1,
@@ -21,7 +21,7 @@
       "ammoMultiplier": 4,
     },
     "silicon": {
-      "type": "FlakBulletType",
+      "type": "BombBulletType",
       "speed": 2.5,
       "damage": 40,
       "knockback": 1,
