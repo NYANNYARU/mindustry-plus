@@ -32,6 +32,14 @@
       "ammoMultiplier": 3
     }
   },
+  "requirements": [
+    { "item": "copper", "amount": 750 },
+    { "item": "lead", "amount": 750 },
+    { "item": "iron-high-density-plate", "amount": 500 },
+    { "item": "gold-high-density-plate", "amount": 400 },
+    { "item": "diamond-high-density-plate", "amount": 350},
+    { "item": "diagold-alloy", "amount": 150 }
+  ],
   "category": "turret",
   "research": "spectre"
 }
