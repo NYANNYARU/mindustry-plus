@@ -14,6 +14,7 @@
       "type": "FlakBulletType",
       "speed": 2.5,
       "damage": 40,
+      "drag": 0.4,
       "knockback": 1,
       "splashDamageRadius": 30,
       "ammoMultiplier": 4,
