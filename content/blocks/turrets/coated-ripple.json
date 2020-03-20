@@ -13,6 +13,8 @@
     "graphite": {
       "type": "FlakBulletType",
       "speed": 2.5,
+      "fragVelocityMin": 0.5,
+      "fragVelocityMax": 1,
       "damage": 40,
       "knockback": 1,
       "splashDamageRadius": 30,
