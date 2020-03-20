@@ -7,6 +7,7 @@
   "shootSound": "artillery",
   "range": 400,
   "reload": "45",
+  "speed": 5,
   "inaccuracy": 7,
   "shots": 5,
   "ammo": {
