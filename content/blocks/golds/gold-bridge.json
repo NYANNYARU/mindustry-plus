@@ -4,7 +4,7 @@
 	"type": "ExtendingItemBridge",
 	"health": 300,
 	"size": 1,
-	"range": 21.5,
+	"range": 21.4,
 	"speed": 50,
 	"bufferCapacity": 20,
 	"requirements": [
