@@ -13,6 +13,7 @@
   "range": 250,
   "ammo": {
     "graphite": {
+      "lifetime": 25,
       "type": "BasicBulletType",
       "bulletSqrite": "standardThoriumBig",
       "speed": 10,
@@ -20,14 +21,16 @@
       "ammoMultiplier": 3
     },
     "pyratite": {
+      "lifetime": 25,
       "type": "BasicBulletType",
-      "bulletSprite": "standardIncendiaryBig",
+      "name": "standardIncendiaryBig",
       "speed": 10,
       "incendAmount": 2.5,
       "damage": "60",
       "ammoMultiplier": 3
     },
     "thorium": {
+      "lifetime": 25,
       "type": "BasicBulletType",
       "bulletSprite": "standardThoriumBig",
       "speed": 10,
