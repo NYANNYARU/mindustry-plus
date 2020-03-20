@@ -19,7 +19,7 @@
       "ammoMultiplier": 4,
     },
     "silicon": {
-      "type": "ArtilleryBulletType",
+      "type": "FlakBulletType",
       "speed": 2.5,
       "damage": 40,
       "knockback": 1,
