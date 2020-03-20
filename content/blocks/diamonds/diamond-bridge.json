@@ -1,7 +1,7 @@
 {
 	"name": "diamond-bridge",
 	"description": "diamond-bridge",
-	"type": "BufferedItemBridge",
+	"type": "ExtendingItemBridge",
 	"health": 500,
 	"size": 1,
 	"range": 25,
