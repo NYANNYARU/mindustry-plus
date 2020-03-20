@@ -12,6 +12,7 @@
   "ammo": {
     "graphite": {
       "type": "ArtilleryBulletType",
+      "keepVelocity": false,
       "bulletWidth": 8,
       "bulletHeight": 10,
       "speed": 2.5,
