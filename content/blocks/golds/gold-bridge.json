@@ -1,10 +1,10 @@
 {
 	"name": "gold-bridge",
 	"description": "gold-bridge",
-	"type": "BufferedItemBridge",
+	"type": "ExtendingItemBridge",
 	"health": 300,
 	"size": 1,
-	"range": 20,
+	"range": 21.1,
 	"speed": 50,
 	"bufferCapacity": 20,
 	"requirements": [
