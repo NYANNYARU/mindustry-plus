@@ -17,8 +17,8 @@
   "ammo": {
     "graphite": {
       "lifetime": 45.83,
-      "bulletWidth": 2.5,
-      "bulletHeight": 5,
+      "bulletWidth": 10,
+      "bulletHeight": 20,
       "type": "BasicBulletType",
       "speed": 6,
       "damage": 65,
