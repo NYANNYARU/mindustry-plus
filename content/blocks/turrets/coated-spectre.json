@@ -2,37 +2,51 @@
   "type": "DoubleTurret",
   "name": "coated-spectre",
   "description": "coated spectre",
-  "shotWidth": 5,
+  "shotWidth": 10,
   "shots": 2,
-  "reload": 10,
   "size": 4,
+  "reload": "16.66666"
   "targetAir": true,
   "targetGround": true,
   "shootEffect": "shootBigSmoke",
   "shootSound": "shootBig",
   "inaccuracy": "1",
-  "range": 200,
+  "range": 250,
   "ammo": {
     "graphite": {
+      "lifetime": 25,
       "type": "BasicBulletType",
       "bulletSqrite": "standardThoriumBig",
+      "speed": 10,
       "damage": 65,
       "ammoMultiplier": 3
     },
     "pyratite": {
+      "lifetime": 25,
       "type": "BasicBulletType",
-      "bulletSprite": "standardIncendiaryBig",
-      "incendAmount": 5,
+      "name": "standardIncendiaryBig",
+      "speed": 10,
+      "incendAmount": 2.5,
       "damage": "60",
       "ammoMultiplier": 3
     },
     "thorium": {
+      "lifetime": 25,
       "type": "BasicBulletType",
       "bulletSprite": "standardThoriumBig",
+      "speed": 10,
       "damage": 100,
       "ammoMultiplier": 3
     }
   },
+  "requirements": [
+    { "item": "copper", "amount": 750 },
+    { "item": "lead", "amount": 750 },
+    { "item": "iron-high-density-plate", "amount": 500 },
+    { "item": "gold-high-density-plate", "amount": 400 },
+    { "item": "diamond-high-density-plate", "amount": 350},
+    { "item": "diagold-alloy", "amount": 150 }
+  ],
   "category": "turret",
   "research": "spectre"
 }
