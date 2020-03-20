@@ -1,0 +1,59 @@
+{
+  "type": "ArtilleryTurret",
+  "name": "coated-ripple",
+  "heatColor": "ff0000",
+  "shootEffect": "shootSmallSmoke",
+  "shootSound": "artillery",
+  "range": 400,
+  "reload": "45",
+  "inaccuracy": 7,
+  "shots": 5,
+  "ammo": {
+    "graphite": {
+      "type": "FlakBulletType",
+      "damage": 40,
+      "knockback": 1,
+      "splashDamageRadius": 30,
+      "ammoMultiplier": 4,
+    },
+    "silicon": {
+      "FlakBulletType",
+      "damage": 40,
+      "knockback": 1,
+      "splashDamageRadius": 30,
+      "homingPower": "1",
+      "splashDamageRadius": 30,
+      "ammoMultiplier": 4
+    },
+    "pyratite": {
+      "type": "FlakBulletType",
+      "damage": 36,
+      "knockback": 1,
+      "incendAmount": 2.5,
+      "splashDamageRadius": 30,
+      "ammoMultiplier": 4,
+    },
+    "blast-compound": {
+      "type": "FlakBulletType",
+      "damage": 60,
+      "knockback": 1,
+      "splashDamageRadius": 60,
+      "ammoMultiplier": 6
+    },
+    "plastanium": {
+      "type": "FlakBulletType",
+      "damage": 54,
+      "knockback": 1.4,
+    }
+  },
+  "requirements": [
+    { "item": "copper", "amount": 250 },
+    { "item": "lead", "amount": 250 },
+    { "item": "iron-high-density-plate", "amount": 100 },
+    { "item": "gold-high-density-plate", "amount": 100 },
+    { "item": "diamond-high-density-plate", "amount": 75},
+    { "item": "diagold-alloy", "amount": 25 }
+  ],
+  "category": "turret",
+  "research": "ripple"
+}
