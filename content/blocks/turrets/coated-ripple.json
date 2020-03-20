@@ -7,12 +7,12 @@
   "shootSound": "artillery",
   "range": 400,
   "reload": 45,
-  "speed": 5,
   "inaccuracy": 7,
   "shots": 5,
   "ammo": {
     "graphite": {
       "type": "FlakBulletType",
+      "speed": 5,
       "damage": 40,
       "knockback": 1,
       "splashDamageRadius": 30,
@@ -20,6 +20,7 @@
     },
     "silicon": {
       "type": "FlakBulletType",
+      "speed": 5,
       "damage": 40,
       "knockback": 1,
       "splashDamageRadius": 30,
@@ -29,6 +30,7 @@
     },
     "pyratite": {
       "type": "FlakBulletType",
+      "speed": 5,
       "damage": 36,
       "knockback": 1,
       "incendAmount": 2.5,
@@ -37,6 +39,7 @@
     },
     "blast-compound": {
       "type": "FlakBulletType",
+      "speed": 5,
       "damage": 60,
       "knockback": 1,
       "splashDamageRadius": 60,
@@ -44,6 +47,7 @@
     },
     "plastanium": {
       "type": "FlakBulletType",
+      "speed": 5,
       "damage": 54,
       "knockback": 1.4,
     }
