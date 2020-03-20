@@ -2,7 +2,7 @@
   "type": "DoubleTurret",
   "name": "coated-spectre",
   "description": "coated spectre",
-  "shotWidth": 10,
+  "shotWidth": 5,
   "shots": 2,
   "size": 4,
   "reload": "6",
@@ -11,7 +11,7 @@
   "shootEffect": "shootBigSmoke",
   "shootSound": "shootBig",
   "inaccuracy": "1",
-  "range": 250,
+  "range": 275,
   "ammo": {
     "graphite": {
       "lifetime": 25,
@@ -19,7 +19,7 @@
       "bulletSqrite": "standardThoriumBig",
       "speed": 10,
       "damage": 65,
-      "ammoMultiplier": 3
+      "ammoMultiplier": 5
     },
     "pyratite": {
       "lifetime": 25,
@@ -28,7 +28,7 @@
       "speed": 10,
       "incendAmount": 2.5,
       "damage": "60",
-      "ammoMultiplier": 3
+      "ammoMultiplier": 5
     },
     "thorium": {
       "lifetime": 25,
@@ -36,7 +36,7 @@
       "bulletSprite": "standardThoriumBig",
       "speed": 10,
       "damage": 100,
-      "ammoMultiplier": 3
+      "ammoMultiplier": 5
     }
   },
   "requirements": [
