@@ -13,5 +13,5 @@
     { "item": "diamond-plate", "amount": 4},
 	],
 	"category": "distribution",
-	"research": "gold-conveyor"
+	"research": "gold-bridge"
 }
