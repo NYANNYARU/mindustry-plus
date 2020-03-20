@@ -11,7 +11,7 @@
   "shots": 5,
   "ammo": {
     "graphite": {
-      "type": "BombBulletType",
+      "type": "FlakBulletType",
       "speed": 2.5,
       "damage": 40,
       "knockback": 1,
@@ -19,7 +19,7 @@
       "ammoMultiplier": 4,
     },
     "silicon": {
-      "type": "BombBulletType",
+      "type": "FlakBulletType",
       "speed": 2.5,
       "damage": 40,
       "knockback": 1,
