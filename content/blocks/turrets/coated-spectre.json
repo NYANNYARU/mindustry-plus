@@ -15,14 +15,14 @@
     "graphite": {
       "type": "BasicBulletType",
       "bulletSqrite": "standardThoriumBig",
-      "speed": 250,
+      "speed": 10,
       "damage": 65,
       "ammoMultiplier": 3
     },
     "pyratite": {
       "type": "BasicBulletType",
       "bulletSprite": "standardIncendiaryBig",
-      "speed": 250,
+      "speed": 10,
       "incendAmount": 2.5,
       "damage": "60",
       "ammoMultiplier": 3
@@ -30,7 +30,7 @@
     "thorium": {
       "type": "BasicBulletType",
       "bulletSprite": "standardThoriumBig",
-      "speed": 250,
+      "speed": 10,
       "damage": 100,
       "ammoMultiplier": 3
     }
