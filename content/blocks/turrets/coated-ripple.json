@@ -17,7 +17,7 @@
       "ammoMultiplier": 4,
     },
     "silicon": {
-      "FlakBulletType",
+      "type": "FlakBulletType",
       "damage": 40,
       "knockback": 1,
       "splashDamageRadius": 30,
