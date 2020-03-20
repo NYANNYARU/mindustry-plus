@@ -5,6 +5,8 @@
   "shotWidth": 5,
   "shots": 2,
   "size": 4,
+  "restitution": 0.01,
+  "cooldown": 0.01,
   "reload": "6",
   "targetAir": true,
   "targetGround": true,
@@ -14,7 +16,7 @@
   "range": 275,
   "ammo": {
     "graphite": {
-      "lifetime": 25,
+      "lifetime": 45.83,
       "type": "BasicBulletType",
       "bulletSqrite": "standardThoriumBig",
       "speed": 6,
@@ -22,7 +24,7 @@
       "ammoMultiplier": 5
     },
     "pyratite": {
-      "lifetime": 25,
+      "lifetime": 45.83,
       "type": "BasicBulletType",
       "name": "standardIncendiaryBig",
       "speed": 6,
@@ -31,7 +33,7 @@
       "ammoMultiplier": 5
     },
     "thorium": {
-      "lifetime": 25,
+      "lifetime": 45.83,
       "type": "BasicBulletType",
       "bulletSprite": "standardThoriumBig",
       "speed": 6,
