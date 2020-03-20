@@ -2,6 +2,7 @@
   "type": "ArtilleryTurret",
   "name": "coated-ripple",
   "heatColor": "ff0000",
+  "size": 3,
   "shootEffect": "shootSmallSmoke",
   "shootSound": "artillery",
   "range": 400,
