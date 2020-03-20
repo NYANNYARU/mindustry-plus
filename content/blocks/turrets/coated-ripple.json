@@ -23,7 +23,6 @@
       "speed": 2.5,
       "damage": 40,
       "knockback": 1,
-      "splashDamageRadius": 30,
       "homingPower": "1",
       "splashDamageRadius": 30,
       "ammoMultiplier": 4
@@ -49,6 +48,7 @@
       "type": "FlakBulletType",
       "speed": 2.5,
       "damage": 54,
+      "splashDamageRadius": 30,
       "knockback": 1.4,
     }
   },
