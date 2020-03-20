@@ -29,6 +29,8 @@
       "type": "BasicBulletType",
       "bulletWidth": 15,
       "bulletHeight": 20,
+      "frongColor": "ff3300",
+      "backColor", "ff0000",
       "speed": 6,
       "incendAmount": 2.5,
       "damage": "60",
