@@ -38,7 +38,7 @@
     "pyratite": {
       "type": "ArtilleryBulletType",
       "frontColor": "ff5500",
-      "back Color": "ff220",
+      "back Color": "ff2200",
       "damage": 0,
       "bulletWidth": 12,
       "bulletHeight": 12,
