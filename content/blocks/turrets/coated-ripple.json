@@ -18,7 +18,8 @@
       "speed": 2.5,
       "knockback": 1,
       "ammoMultiplier": 4,
-      "splashDamage": 54
+      "splashDamage": 50,
+      "splashDamageRadius": 40
     },
     "silicon": {
       "type": "ArtilleryBulletType",
@@ -29,7 +30,8 @@
       "knockback": 1,
       "homingPower": "1",
       "ammoMultiplier": 4,
-      "splashDamage": 54
+      "splashDamage": 50,
+      "splashDamageRadius": 40
     },
     "pyratite": {
       "type": "ArtilleryBulletType",
@@ -40,7 +42,8 @@
       "knockback": 1,
       "incendAmount": 2.5,
       "ammoMultiplier": 4,
-      "splashDamage": 54
+      "splashDamage": 45,
+      "splashDamageRadius": 40
     },
     "blast-compound": {
       "type": "ArtilleryBulletType",
@@ -50,7 +53,8 @@
       "speed": 2.5,
       "knockback": 1,
       "ammoMultiplier": 6,
-      "splashDamage": 60
+      "splashDamage":75
+      "splashDamageRadius": 60
     },
     "plastanium": {
       "type": "ArtilleryBulletType",
@@ -61,8 +65,9 @@
       "knockback": 1.4,
       "ammoMultiplier": 4,
       "fragBullets": 15,
-      "fragBullet": "artilleryPlasticFrag"
-      "splashDamage": 54
+      "fragBullet": "artilleryPlasticFrag",
+      "splashDamage": 67,
+      "splashDamageRadius": 48
     }
   },
   "requirements": [
