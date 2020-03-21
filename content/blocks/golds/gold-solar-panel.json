@@ -1,7 +1,7 @@
 {
   "type": "SolarGenerator",
   "name": "gold-solar-panel",
-  "description": "gold solar-panel",
+  "description": "gold solar panel",
   "powerProduction": 0.25,
   "requirements": [
     { "item": "lead", "amount": 10 },
