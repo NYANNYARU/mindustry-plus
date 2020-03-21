@@ -1,0 +1,25 @@
+{
+  "type": "PowerTurret",
+  "shootType": "arc",
+  "reload": 15,
+  "shootCone": 40,
+  "rotatespeed": 8,
+  "powerUse": 1.8,
+  "targetAir": true,
+  "range": 150,
+  "shootEffect": "lightningShoot",
+  "heatColor": "ff0000",
+  "recoil": 0.5,
+  "size": 1,
+  "health": 1000,
+  "shootSound": "spark"
+  "requirements": [
+		{ "item": "copper", "amount": 50 },
+    { "item": "lead", "amount": 65 },
+    { "item": "iron-plate", "amount": 1 },
+    { "item": "gold-plate", "amount": 1 },
+    { "item": "diamond-plate", "amount": 1 },
+	],
+  "category": "turret",
+  "research": "arc"
+}
