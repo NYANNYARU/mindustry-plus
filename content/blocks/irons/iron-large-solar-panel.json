@@ -2,6 +2,7 @@
   "type": "SolarGenerator",
   "name": "large-iron-solar-panel",
   "description": "large iron solar panel",
+  "size": 3,
   "powerProduction": 1.8,
   "requirements": [
     { "item": "lead", "amount": 100 },
