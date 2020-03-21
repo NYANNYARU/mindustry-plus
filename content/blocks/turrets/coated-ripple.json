@@ -18,11 +18,9 @@
       "speed": 2.5,
       "damage": 40,
       "knockback": 1,
-      "splashDamageRadius": 30,
       "ammoMultiplier": 4,
       "fragVelocityMin": 0.2,
-      "fragVelocityMax": 1,
-      "fragBullets": 5
+      "fragVelocityMax": 1
     },
     "silicon": {
       "type": "ArtilleryBulletType",
@@ -32,7 +30,6 @@
       "damage": 40,
       "knockback": 1,
       "homingPower": "1",
-      "splashDamageRadius": 30,
       "ammoMultiplier": 4
     },
     "pyratite": {
@@ -43,7 +40,6 @@
       "damage": 36,
       "knockback": 1,
       "incendAmount": 2.5,
-      "splashDamageRadius": 30,
       "ammoMultiplier": 4,
     },
     "blast-compound": {
@@ -53,7 +49,6 @@
       "speed": 2.5,
       "damage": 60,
       "knockback": 1,
-      "splashDamageRadius": 60,
       "ammoMultiplier": 6
     },
     "plastanium": {
@@ -62,8 +57,9 @@
       "bulletHeight": 10,
       "speed": 2.5,
       "damage": 54,
-      "splashDamageRadius": 30,
       "knockback": 1.4,
+      "ammoMultiplier": 4,
+      "fragBullets": 15
     }
   },
   "requirements": [
