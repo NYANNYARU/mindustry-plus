@@ -1,0 +1,13 @@
+{
+  "type": "SolarGenerator",
+  "name": "large-gold-solar-panel",
+  "description": "large gold solar panel",
+  "powerProduction": 3.6,
+  "requirements": [
+    { "item": "lead", "amount": 100 },
+    { "item": "silicon", "amount": 150 },
+    { "item": "gold-high-density-plate", "amount":  15}
+  ],
+  "category": "power",
+  "research": "iron-large-solar-panel"
+}
