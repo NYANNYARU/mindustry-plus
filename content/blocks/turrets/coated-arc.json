@@ -1,5 +1,7 @@
 {
   "type": "PowerTurret",
+  "name": "coated-arc",
+  "description": "coated arc",
   "shootType": "arc",
   "reload": 15,
   "shootCone": 40,
@@ -12,14 +14,14 @@
   "recoil": 0.5,
   "size": 1,
   "health": 1000,
-  "shootSound": "spark"
+  "shootSound": "spark",
   "requirements": [
-		{ "item": "copper", "amount": 50 },
+    { "item": "copper", "amount": 50 },
     { "item": "lead", "amount": 65 },
     { "item": "iron-plate", "amount": 1 },
     { "item": "gold-plate", "amount": 1 },
-    { "item": "diamond-plate", "amount": 1 },
-	],
+    { "item": "diamond-plate", "amount": 1 }
+  ],
   "category": "turret",
   "research": "arc"
 }
