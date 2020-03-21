@@ -19,5 +19,15 @@
   "size": 2,
   "health": 3000,
   "targetAir": true,
-  "shootSound": "laser"
+  "shootSound": "laser",
+  "requirements": [
+		{ "item": "copper", "amount": 50 },
+    { "item": "lead", "amount": 100 },
+    { "item": "silicon", "amount": 90 },
+    { "item": "iron-plate", "amount": 25 },
+    { "item": "gold-plate", "amount": 20 },
+    { "item": "diamond-plate", "amount": 15 }
+	],
+  "category": "turret",
+  "research": "lancer"
 }
