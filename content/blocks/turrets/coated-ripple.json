@@ -12,8 +12,9 @@
   "ammo": {
     "graphite": {
       "type": "ArtilleryBulletType",
-      "bulletWidth": 8,
-      "bulletHeight": 10,
+      "damage": 0,
+      "bulletWidth": 12,
+      "bulletHeight": 12,
       "speed": 2.5,
       "knockback": 1,
       "ammoMultiplier": 4,
@@ -21,8 +22,9 @@
     },
     "silicon": {
       "type": "ArtilleryBulletType",
-      "bulletWidth": 8,
-      "bulletHeight": 10,
+      "damage": 0,
+      "bulletWidth": 12,
+      "bulletHeight": 12,
       "speed": 2.5,
       "knockback": 1,
       "homingPower": "1",
@@ -31,8 +33,9 @@
     },
     "pyratite": {
       "type": "ArtilleryBulletType",
-      "bulletWidth": 8,
-      "bulletHeight": 10,
+      "damage": 0,
+      "bulletWidth": 12,
+      "bulletHeight": 12,
       "speed": 2.5,
       "knockback": 1,
       "incendAmount": 2.5,
@@ -41,8 +44,9 @@
     },
     "blast-compound": {
       "type": "ArtilleryBulletType",
-      "bulletWidth": 8,
-      "bulletHeight": 10,
+      "damage": 0,
+      "bulletWidth": 12,
+      "bulletHeight": 12,
       "speed": 2.5,
       "knockback": 1,
       "ammoMultiplier": 6,
@@ -51,8 +55,8 @@
     "plastanium": {
       "type": "ArtilleryBulletType",
       "damage": 0,
-      "bulletWidth": 8,
-      "bulletHeight": 10,
+      "bulletWidth": 12,
+      "bulletHeight": 12,
       "speed": 2.5,
       "knockback": 1.4,
       "ammoMultiplier": 4,
