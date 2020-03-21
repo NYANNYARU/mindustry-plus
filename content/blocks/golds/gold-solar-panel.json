@@ -3,6 +3,7 @@
   "name": "gold-solar-panel",
   "description": "gold solar panel",
   "powerProduction": 0.25,
+  "buildCostMultiplier": 2,
   "requirements": [
     { "item": "lead", "amount": 10 },
     { "item": "silicon", "amount": 15 },
