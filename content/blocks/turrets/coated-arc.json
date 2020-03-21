@@ -4,6 +4,7 @@
   "description": "coated arc",
   "shootType": "arc",
   "reload": 15,
+  "shots": 2,
   "shootCone": 40,
   "rotatespeed": 8,
   "powerUse": 1.8,
