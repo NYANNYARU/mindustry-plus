@@ -6,7 +6,7 @@
   "requirements": [
     { "item": "lead", "amount": 100 },
     { "item": "silicon", "amount": 150 },
-    { "item": "iron-high-density-plate", "amount":  15}
+    { "item": "iron-high-density-plate", "amount":  30}
   ],
   "category": "power",
   "research": "solar-panel-large"
