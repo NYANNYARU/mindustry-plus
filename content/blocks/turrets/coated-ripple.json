@@ -1,6 +1,7 @@
 {
   "type": "ArtilleryTurret",
   "name": "coated-ripple",
+  "health": 5000,
   "heatColor": "ff0000",
   "size": 3,
   "shootEffect": "shootSmallSmoke",
@@ -53,7 +54,7 @@
       "speed": 2.5,
       "knockback": 1,
       "ammoMultiplier": 6,
-      "splashDamage":75
+      "splashDamage":75,
       "splashDamageRadius": 60
     },
     "plastanium": {
