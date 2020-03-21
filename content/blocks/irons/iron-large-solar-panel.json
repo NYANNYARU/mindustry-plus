@@ -1,0 +1,13 @@
+{
+  "type": "SolarGenerator",
+  "name": "large-iron-solar-panel",
+  "description": "large iron solar panel",
+  "powerProduction": 1.8,
+  "requirements": [
+    { "item": "lead", "amount": 100 },
+    { "item": "silicon", "amount": 150 },
+    { "item": "iron-high-density-plate", "amount":  15}
+  ],
+  "category": "power",
+  "research": "solar-panel-large"
+}
