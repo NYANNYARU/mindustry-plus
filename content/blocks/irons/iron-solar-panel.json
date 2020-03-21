@@ -1,7 +1,7 @@
 {
   "type": "SolarGenerator",
   "name": "iron-solar-panel",
-  "description": "iron solar-panel",
+  "description": "iron solar panel",
   "powerProduction": 0.125,
   "requirements": [
     { "item": "lead", "amount": 10 },
