@@ -1,0 +1,13 @@
+{
+  "type": "SolarGenerator",
+  "name": "large-diamond-solar-panel",
+  "description": "large diamond solar panel",
+  "powerProduction": 7.2,
+  "requirements": [
+    { "item": "lead", "amount": 100 },
+    { "item": "silicon", "amount": 150 },
+    { "item": "diamond-high-density-plate", "amount":  30}
+  ],
+  "category": "power",
+  "research": "gold-large-solar-panel"
+}
