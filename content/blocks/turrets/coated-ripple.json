@@ -15,7 +15,6 @@
       "bulletWidth": 8,
       "bulletHeight": 10,
       "speed": 2.5,
-      "damage": 40,
       "knockback": 1,
       "ammoMultiplier": 4,
       "splashDamage": 32
@@ -25,7 +24,6 @@
       "bulletWidth": 8,
       "bulletHeight": 10,
       "speed": 2.5,
-      "damage": 40,
       "knockback": 1,
       "homingPower": "1",
       "ammoMultiplier": 4,
@@ -36,7 +34,6 @@
       "bulletWidth": 8,
       "bulletHeight": 10,
       "speed": 2.5,
-      "damage": 36,
       "knockback": 1,
       "incendAmount": 2.5,
       "ammoMultiplier": 4,
@@ -47,7 +44,6 @@
       "bulletWidth": 8,
       "bulletHeight": 10,
       "speed": 2.5,
-      "damage": 60,
       "knockback": 1,
       "ammoMultiplier": 6,
       "splashDamage": 60
