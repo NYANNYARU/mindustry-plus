@@ -12,15 +12,13 @@
   "ammo": {
     "graphite": {
       "type": "ArtilleryBulletType",
-      "keepVelocity": true,
       "bulletWidth": 8,
       "bulletHeight": 10,
       "speed": 2.5,
       "damage": 40,
       "knockback": 1,
       "ammoMultiplier": 4,
-      "fragVelocityMin": 0.2,
-      "fragVelocityMax": 1
+      "splashDamageRadius": 32
     },
     "silicon": {
       "type": "ArtilleryBulletType",
@@ -30,7 +28,8 @@
       "damage": 40,
       "knockback": 1,
       "homingPower": "1",
-      "ammoMultiplier": 4
+      "ammoMultiplier": 4,
+      "splashDamageRadius": 32
     },
     "pyratite": {
       "type": "ArtilleryBulletType",
@@ -41,6 +40,7 @@
       "knockback": 1,
       "incendAmount": 2.5,
       "ammoMultiplier": 4,
+      "splashDamageRadius": 32
     },
     "blast-compound": {
       "type": "ArtilleryBulletType",
@@ -49,7 +49,8 @@
       "speed": 2.5,
       "damage": 60,
       "knockback": 1,
-      "ammoMultiplier": 6
+      "ammoMultiplier": 6,
+      "splashDamageRadius": 60
     },
     "plastanium": {
       "type": "ArtilleryBulletType",
@@ -61,6 +62,7 @@
       "ammoMultiplier": 4,
       "fragBullets": 15,
       "fragBullet": "artilleryPlasticFrag"
+      "splashDamageRadius": 52
     }
   },
   "requirements": [
