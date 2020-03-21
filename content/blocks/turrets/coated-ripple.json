@@ -59,7 +59,8 @@
       "damage": 54,
       "knockback": 1.4,
       "ammoMultiplier": 4,
-      "fragBullets": 15
+      "fragBullets": 15,
+      "fragBullet": "artilleryPlasticFrag"
     }
   },
   "requirements": [
