@@ -28,7 +28,7 @@
       "damage": 0,
       "bulletWidth": 12,
       "bulletHeight": 12,
-      "bulletShrink": 0.5
+      "bulletShrink": 1,
       "speed": 2.5,
       "knockback": 1,
       "homingPower": "1",
