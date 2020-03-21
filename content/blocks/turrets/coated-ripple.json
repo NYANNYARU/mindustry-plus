@@ -1,5 +1,5 @@
 {
-  "type": "ArtilleryTurret",
+  "type": "BurstTurret",
   "name": "coated-ripple",
   "description": "coated ripple",
   "health": 5000,
