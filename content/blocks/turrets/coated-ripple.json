@@ -1,6 +1,7 @@
 {
   "type": "ArtilleryTurret",
   "name": "coated-ripple",
+  "description": "coated ripple",
   "health": 5000,
   "heatColor": "ff0000",
   "size": 3,
