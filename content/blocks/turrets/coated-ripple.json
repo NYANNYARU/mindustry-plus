@@ -14,6 +14,7 @@
   "xRand": 24,
   "ammo": {
     "graphite": {
+      "lifetime": 160,
       "type": "ArtilleryBulletType",
       "damage": 0,
       "bulletWidth": 12,
