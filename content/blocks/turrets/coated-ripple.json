@@ -17,7 +17,7 @@
       "speed": 2.5,
       "knockback": 1,
       "ammoMultiplier": 4,
-      "splashDamage": 32
+      "splashDamage": 54
     },
     "silicon": {
       "type": "ArtilleryBulletType",
@@ -27,7 +27,7 @@
       "knockback": 1,
       "homingPower": "1",
       "ammoMultiplier": 4,
-      "splashDamage": 32
+      "splashDamage": 54
     },
     "pyratite": {
       "type": "ArtilleryBulletType",
@@ -37,7 +37,7 @@
       "knockback": 1,
       "incendAmount": 2.5,
       "ammoMultiplier": 4,
-      "splashDamage": 32
+      "splashDamage": 54
     },
     "blast-compound": {
       "type": "ArtilleryBulletType",
@@ -58,7 +58,7 @@
       "ammoMultiplier": 4,
       "fragBullets": 15,
       "fragBullet": "artilleryPlasticFrag"
-      "splashDamage": 52
+      "splashDamage": 54
     }
   },
   "requirements": [
