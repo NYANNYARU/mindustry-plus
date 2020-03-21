@@ -1,7 +1,7 @@
 {
   "type": "SolarGenerator",
   "name": "diamond-solar-panel",
-  "description": "diamond solar-panel",
+  "description": "diamond solar panel",
   "powerProduction": 0.5,
   "requirements": [
     { "item": "lead", "amount": 10 },
