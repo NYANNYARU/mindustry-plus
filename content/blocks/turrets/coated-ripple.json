@@ -50,10 +50,10 @@
     },
     "plastanium": {
       "type": "ArtilleryBulletType",
+      "damage": 0,
       "bulletWidth": 8,
       "bulletHeight": 10,
       "speed": 2.5,
-      "damage": 54,
       "knockback": 1.4,
       "ammoMultiplier": 4,
       "fragBullets": 15,
