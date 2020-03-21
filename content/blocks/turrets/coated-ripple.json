@@ -28,6 +28,7 @@
       "damage": 0,
       "bulletWidth": 12,
       "bulletHeight": 12,
+      "hitShake": 10,
       "speed": 2.5,
       "knockback": 1,
       "homingPower": "1",
