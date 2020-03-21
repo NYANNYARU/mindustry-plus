@@ -11,6 +11,7 @@
   "reload": 45,
   "inaccuracy": 7,
   "shots": 5,
+  "xRand": 10,
   "ammo": {
     "graphite": {
       "type": "ArtilleryBulletType",
@@ -28,7 +29,6 @@
       "damage": 0,
       "bulletWidth": 12,
       "bulletHeight": 12,
-      "bulletShrink": 1,
       "speed": 2.5,
       "knockback": 1,
       "homingPower": "1",
