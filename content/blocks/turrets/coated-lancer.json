@@ -2,7 +2,7 @@
   "type": "ChargeTurret",
   "name": "coated-lancer",
   "description": "coated lancer",
-  "range": 200,
+  "range": 185,
   "chargeTime": 25,
   "chargeMaxDelay": 25,
   "chargeEffects": 7,
