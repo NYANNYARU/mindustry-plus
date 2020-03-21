@@ -4,6 +4,7 @@
   "description": "large gold solar panel",
   "size": 3,
   "powerProduction": 3.6,
+  "buildCostMultiplier": 2,
   "requirements": [
     { "item": "lead", "amount": 100 },
     { "item": "silicon", "amount": 150 },
