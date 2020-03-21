@@ -1,5 +1,5 @@
 {
-  "type": "ArtilleryTurret",
+  "type": "BurstTurret",
   "name": "coated-ripple",
   "heatColor": "ff0000",
   "size": 3,
