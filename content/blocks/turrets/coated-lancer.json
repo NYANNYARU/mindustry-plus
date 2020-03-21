@@ -4,7 +4,6 @@
   "description": "coated lancer",
   "range": 185,
   "chargeTime": 5,
-  "shots": 3,
   "chargeMaxDelay": 5,
   "chargeEffects": 7,
   "shootType": "lancerLaser",
