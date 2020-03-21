@@ -3,10 +3,10 @@
   "name": "coated-lancer",
   "description": "coated lancer",
   "range": 200,
-  "chargeTime" = 25,
-  "chargeMaxDelay" = 25;
-  "chargeEffects" = 7,
-  "shootType": Bullets.lancerLaser;
+  "chargeTime": 25,
+  "chargeMaxDelay": 25,
+  "chargeEffects": 7,
+  "shootType": "lancerLaser",
   "recoil": 1,
   "reload": 60;
   "cooldown": 0.02,
