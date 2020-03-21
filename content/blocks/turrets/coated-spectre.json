@@ -2,6 +2,7 @@
   "type": "DoubleTurret",
   "name": "coated-spectre",
   "description": "coated spectre",
+  "health": 6500,
   "shotWidth": 5,
   "shots": 2,
   "size": 4,
