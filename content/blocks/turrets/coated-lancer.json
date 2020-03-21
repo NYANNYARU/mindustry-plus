@@ -16,7 +16,7 @@
   "chargeEffect": "lancerLaserCharge",
   "chargeBeginEffect": "lancerLaserChargeBegin",
   "heatColor": "ff0000",
-  "size" = 2,
+  "size": 2,
   "health": 3000,
   "targetAir": true,
   "shootSound": "laser"
