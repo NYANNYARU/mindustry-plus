@@ -5,6 +5,7 @@
   "damege": 1000,
   "health": 7500,
   "shootSound": "laserbig",
+  "activeSound": "beam",
   "range": 253,
   "reload": 150,
   "size": 4,
