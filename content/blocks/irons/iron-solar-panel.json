@@ -3,6 +3,7 @@
   "name": "iron-solar-panel",
   "description": "iron solar panel",
   "powerProduction": 0.125,
+  "buildCostMultiplier": 1.2,
   "requirements": [
     { "item": "lead", "amount": 10 },
     { "item": "silicon", "amount": 15 },
