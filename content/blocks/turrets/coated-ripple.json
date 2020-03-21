@@ -11,7 +11,7 @@
   "reload": 45,
   "inaccuracy": 7,
   "shots": 5,
-  "recoil": 360,
+  "shootShake": 2,
   "ammo": {
     "graphite": {
       "lifetime": 160,
