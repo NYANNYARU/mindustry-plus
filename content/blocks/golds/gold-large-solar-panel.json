@@ -2,6 +2,7 @@
   "type": "SolarGenerator",
   "name": "large-gold-solar-panel",
   "description": "large gold solar panel",
+  "size": 3,
   "powerProduction": 3.6,
   "requirements": [
     { "item": "lead", "amount": 100 },
