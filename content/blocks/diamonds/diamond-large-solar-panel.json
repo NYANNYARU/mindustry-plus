@@ -4,6 +4,7 @@
   "description": "large diamond solar panel",
   "size": 3,
   "powerProduction": 7.2,
+  "buildCostMultiplier": 3,
   "requirements": [
     { "item": "lead", "amount": 100 },
     { "item": "silicon", "amount": 150 },
