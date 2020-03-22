@@ -16,25 +16,12 @@ import static mindustry.Vars.*;
 public class Bullets implements ContentList{
     public static BulletType
 
-                fusebullet
+                fuseBullet
+        
+            @Override
+    public void load(){
 
-fuse = new ItemTurret("fuse"){{
-            requirements(Category.turret, ItemStack.with(Items.copper, 225, Items.graphite, 225, Items.thorium, 100));
-
-            reload = 35f;
-            shootShake = 4f;
-            range = 90f;
-            recoil = 5f;
-            shots = 3;
-            spread = 20f;
-            restitution = 0.1f;
-            shootCone = 30;
-            size = 3;
-
-            health = 220 * size * size;
-            shootSound = Sounds.shotgun;
-
-            ammo(Items.graphite, new BulletType(0.01f, 105){
+fuseBullet = new BulletType(0.01f, 105){
                 int rays = 1;
                 float rayLength = range + 10f;
 
@@ -70,3 +57,5 @@ fuse = new ItemTurret("fuse"){{
                 }
             });
         }};
+    }
+}
