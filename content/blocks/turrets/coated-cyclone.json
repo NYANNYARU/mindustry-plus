@@ -52,8 +52,8 @@
                                     "splashDamage": 43,
                                     "splashDamageRadius": 40,
                                     "ammoMultiplier": 4,
-                                    "lightining": 3,
-                                    "lightningLength": 80
+                                    "lightining": 5,
+                                    "lightningLength": 30
                         }
             },
             "requirements": [
