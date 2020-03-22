@@ -13,7 +13,14 @@
   "health": "4000",
   "shootSound": "shotgun",
   "ammo": {
-    "graphite": "lancerLaser"
+    "graphite": {
+      "damage": 210,
+      "hitEffect": "hitLancer",
+      "shootEffect": "lightningShoot",
+      "smokeEffect": "lightningShoot",
+      "lifetime": 11.1111,
+      "despawnEffect": "none",
+      "pierce": true
   },
   "requirements": [
     { "item": "copper", "amount": 275 },
