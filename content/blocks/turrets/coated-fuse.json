@@ -13,7 +13,7 @@
   "health": "4000",
   "shootSound": "shotgun",
   "ammo": {
-    "graphite": "damageLightning"
+    "graphite": "meltdownLaser"
   },
   "requirements": [
     { "item": "copper", "amount": 275 },
