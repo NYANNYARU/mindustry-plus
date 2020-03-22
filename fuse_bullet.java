@@ -52,16 +52,13 @@ public class Bullets implements ContentList{
     public void load(){
 
 fuseBullet = new BulletType(0.01f, 2010, "shell"){
-                int rays = 1;
-                float rayLength = range + 10f;
-
-                {
+    {
                     hitEffect = Fx.hitLancer;
                     shootEffect = smokeEffect = Fx.lightningShoot;
                     lifetime = 10f;
                     despawnEffect = Fx.none;
                     pierce = true;
-                }
+    }
 
                 @Override
                 public void init(mindustry.entities.type.Bullet b){
