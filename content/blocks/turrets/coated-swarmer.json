@@ -5,7 +5,7 @@
   "reload": 30,
   "shots": 8,
   "burstSpacing": 2,
-  "inaccuracy": 5,
+  "inaccuracy": 10,
   "range": 225,
   "xRand": 6,
   "size": 2,
