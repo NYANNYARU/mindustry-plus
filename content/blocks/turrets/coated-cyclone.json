@@ -8,7 +8,7 @@
             "size": 3,
             "recoil": 1,
             "rotatespeed": 12,
-            "inaccuracy": 5,
+            "inaccuracy": 20,
             "shootCone": 20,
             "shootSound": "shootSnap",
             "xRand": 4,
