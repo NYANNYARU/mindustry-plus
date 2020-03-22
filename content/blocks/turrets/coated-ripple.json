@@ -10,7 +10,7 @@
   "range": 400,
   "reload": 45,
   "inaccuracy": 7,
-  "shots": 5,
+  "shots": 6,
   "velocityInaccuracy": 0.1,
   "ammo": {
     "graphite": {
@@ -79,13 +79,19 @@
       "splashDamage": 67,
       "splashDamageRadius": 48
     },
-    "coal": {
-      "pierce": true,
-      "hitTiles": false,
-      "collides": false,
-      "collidesTiles": false,
-      "hitEffect": "none",
-      "despawnEffect": "none"
+    "surge-alloy": {
+      "lifetime": 160,
+      "type": "ArtilleryBulletType",
+      "damage": 0,
+      "bulletWidth": 12,
+      "bulletHeight": 12,
+      "speed": 2.5,
+      "knockback": 1,
+      "ammoMultiplier": 4,
+      "splashDamage": 50,
+      "splashDamageRadius": 30,
+      "lightning": 3,
+      "lightningLength": 12
     }
   },
   "requirements": [
