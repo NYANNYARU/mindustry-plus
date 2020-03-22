@@ -78,7 +78,8 @@
       "fragBullet": "artilleryPlasticFrag",
       "splashDamage": 67,
       "splashDamageRadius": 48
-    }
+    },
+    "coal": "fireball"
   },
   "requirements": [
     { "item": "copper", "amount": 250 },
