@@ -1,4 +1,5 @@
 {
+            "type": "ItemTurret",
             "name": "coated-cyclone",
             "description": "coated cyclone",
             "health": "3500",
