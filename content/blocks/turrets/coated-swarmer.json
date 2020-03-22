@@ -1,3 +1,19 @@
 {
-
+  "type": "BurstTurret",
+  "reload": 30,
+  "shots": 6,
+  "burstSpacing": 3,
+  "inaccuracy": 5,
+  "range": 225,
+  "xRand": 6
+  "size": 2,
+  "health": 3200,
+  "shootSound": "missile",
+  "ammo": {
+    "blast-compound": {
+      "type": "MissileBulletType",
+      ""
+    }
+  
+  }
 }
