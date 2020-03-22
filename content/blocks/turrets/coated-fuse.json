@@ -2,7 +2,7 @@
   "type": "ItemTurret",
   "name": "coated-fuse",
   "description": "coated fuse",
-  "reload": 20,
+  "reload": 30,
   "range": 144,
   "recoil": 1,
   "shots": 5,
