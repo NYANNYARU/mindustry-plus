@@ -88,9 +88,9 @@
       "speed": 2.5,
       "knockback": 1,
       "ammoMultiplier": 4,
-      "splashDamage": 50,
+      "splashDamage": 25,
       "splashDamageRadius": 30,
-      "lightining": 3,
+      "lightining": 2,
       "lightningLength": 12
     }
   },
