@@ -13,7 +13,7 @@
   "health": "4000",
   "shootSound": "shotgun",
   "ammo": {
-    "graphite": "arc"
+    "graphite": "fuse"
   },
   "requirements": [
     { "item": "copper", "amount": 275 },
