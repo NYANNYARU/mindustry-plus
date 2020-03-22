@@ -40,6 +40,8 @@
       "damage": 22,
       "lifetime": "66.66666666",
       "speed": 3,
+      "frontColor": "ff5500",
+      "backColor": "ff0000",
       "ammoMultiplier": 6,
       "incendAmount": 2
     },
