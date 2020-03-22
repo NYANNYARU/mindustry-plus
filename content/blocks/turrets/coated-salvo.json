@@ -19,7 +19,7 @@
       "bulletWidth": 7.5,
       "bulletHeight": 10,
       "damage": 18,
-      "speed": 20,
+      "speed": 3,
       "lifetime": 10,
       "ammoMultiplier": 4
     }
