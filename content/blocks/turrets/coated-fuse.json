@@ -1,4 +1,15 @@
 {
   "type": "ItemTurret",
-  ""
+  "name": "coated-fuse",
+  "description": "coated fuse",
+  "reload": 25,
+  "range": 100,
+  "recoil": 1,
+  "shots": 5,
+  "spread": 15,
+  "restitution": 0.05,
+  "shootCone": 50,
+  "size": 3,
+  "health": "4000",
+  "shootSound": "shotgun",
 }
