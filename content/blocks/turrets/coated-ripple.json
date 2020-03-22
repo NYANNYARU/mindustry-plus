@@ -90,7 +90,7 @@
       "ammoMultiplier": 4,
       "splashDamage": 50,
       "splashDamageRadius": 30,
-      "lightning": 3,
+      "lightining": 3,
       "lightningLength": 12
     }
   },
