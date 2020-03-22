@@ -2,7 +2,7 @@
   "type": "BurstTurret",
   "size": 2,
   "range": 200,
-  "reload": 40,
+  "reload": 35,
   "restitution": 0.02,
   "ammoEjectBack": 3,
   "cooldown": 0.02,
