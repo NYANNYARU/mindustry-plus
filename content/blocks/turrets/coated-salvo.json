@@ -2,7 +2,7 @@
   "type": "BurstTurret",
   "size": 2,
   "range": 200,
-  "reload": 35,
+  "reload": 45,
   "restitution": 0.02,
   "ammoEjectBack": 3,
   "cooldown": 0.02,
@@ -21,7 +21,47 @@
       "damage": 18,
       "lifetime": 66.6666666,
       "speed": 3,
-      "ammoMultiplier": 4
+      "ammoMultiplier": 6
+    },
+    "graphite": {
+      "type": "BasicBulletType",
+      "bulletWidth": 8,
+      "bulletHeight": 10,
+      "damage": 36,
+      "lifetime": 66.6666666,
+      "speed": 3,
+      "ammoMultiplier": 5,
+      "reloadMultiplier": 0.8
+    },
+    "pyratite": {
+      "type": "BasicBulletType",
+      "bulletWidth": 8,
+      "bulletHeight": 10,
+      "damage": 22,
+      "lifetime": "66.66666666",
+      "speed": 3,
+      "ammoMultiplier": 6,
+      "incendAmount": 2
+    },
+    "silicon":{
+      "type": "BasicBulletType",
+      "bulletWidth": 7.5,
+      "bulletHeight": 10,
+      "damage": 18,
+      "lifetime": 66.666666666,
+      "speed": 3,
+      "ammoMultiplier": 10,
+      "reloadMultiplier": 1.5,
+      "homingPower": 1
+    },
+    "thorium": {
+      "type": "BasicBulletType",
+      "bulletWidth": 10,
+      "bulletHeight": 12.5,
+      "damage": 60,
+      "lifetime": 66.6666666,
+      "speed": 3,
+      "ammoMultiplier": 7
     }
   },
   "requirements": [
