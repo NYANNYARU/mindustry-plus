@@ -1,19 +1,67 @@
 {
   "type": "BurstTurret",
+  "name": "coated-swarmer",
+  "description": "coated swarmer",
   "reload": 30,
-  "shots": 6,
-  "burstSpacing": 3,
+  "shots": 8,
+  "burstSpacing": 2,
   "inaccuracy": 5,
   "range": 225,
-  "xRand": 6
+  "xRand": 6,
   "size": 2,
   "health": 3200,
   "shootSound": "missile",
   "ammo": {
     "blast-compound": {
       "type": "MissileBulletType",
-      ""
+      "bulletWidth": 8,
+      "bulletHeight": 8,
+      "drag": -0.01,
+      "splashDamageRadius": 36,
+      "splashDamage": 45,
+      "lifetime": 150,
+      "ammoMultiplier": 6,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion"
+    },
+    "pyratite": {
+      "type": "MissileBulletType",
+      "frontColor": "lightishOrange",
+      "backColor": "lightOrange",
+      "bulletWidth": 8,
+      "bulletHeight": 8,
+      "bulletShrink": 0,
+      "drag": -0.01,
+      "homingPower": 7,
+      "splashDamageRadius": 25,
+      "splashDamage": 25,
+      "lifetime": 160,
+      "hitEffect": "blastExplosion",
+      "incendAmount": 3
+    },
+    "surge-Alloy": {
+      "type": "MissileBulletType",
+      "bulletWidth": 8,
+      "bulletHeight": 8,
+      "drag": -0.01,
+      "splashDamageRadius": 45,
+      "splashDamage": 30,
+      "lifetime": 150,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "lightining": 4,
+      "lightningLength": 20
     }
-  
-  }
+  },
+  "requirements": [
+    { "item": "graphite", "amount": 50 },
+    { "item": "titanium", "amount": 50 },
+    { "item": "silicon", "amount": 40 },
+    { "item": "plastanium", "amount": 60 },
+    { "item": "iron-high-density-plate", "amount": 50 },
+    { "item": "gold-high-density-plate", "amount": 50 },
+    { "item": "diamond-high-density-plate", "amount": 25 },
+  ],
+  "category": "turret",
+  "research": "swarmer"
 }
