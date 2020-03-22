@@ -51,38 +51,22 @@ public class Bullets implements ContentList{
             @Override
     public void load(){
 
-fuseBullet = new BulletType(0.01f, 2010, "shell"){
-    {
-                    hitEffect = Fx.hitLancer;
-                    shootEffect = smokeEffect = Fx.lightningShoot;
-                    lifetime = 10f;
-                    despawnEffect = Fx.none;
-                    pierce = true;
-    }
+     fuseBullet = new BulletType(0.01f, 2010, "shell"){
+        int rays = 1;
+        float rayLength = range + 10f;
+        {
+            hitEffect = Fx.hitLancer;
+            shootEffect = smokeEffect = Fx.lightningShoot;
+            lifetime = 10f;
+            despawnEffect = Fx.none;
+            pierce = true;
+        }
 
-                @Override
-                public void init(mindustry.entities.type.Bullet b){
-                    for(int i = 0; i < rays; i++){
-                        Damage.collideLine(b, b.getTeam(), hitEffect, b.x, b.y, b.rot(), rayLength - Math.abs(i - (rays / 2)) * 20f);
-                    }
-                }
-
-                @Override
-                public void draw(Bullet b){
-                    super.draw(b);
-                    Draw.color(Color.white, Pal.lancerLaser, b.fin());
-                    //Draw.alpha(b.fout());
-                    for(int i = 0; i < 7; i++){
-                        Tmp.v1.trns(b.rot(), i * 8f);
-                        float sl = Mathf.clamp(b.fout() - 0.5f) * (80f - i * 10);
-                        Drawf.tri(b.x + Tmp.v1.x, b.y + Tmp.v1.y, 4f, sl, b.rot() + 90);
-                        Drawf.tri(b.x + Tmp.v1.x, b.y + Tmp.v1.y, 4f, sl, b.rot() - 90);
-                    }
-                    Drawf.tri(b.x, b.y, 20f * b.fout(), (rayLength + 50), b.rot());
-                    Drawf.tri(b.x, b.y, 20f * b.fout(), 10f, b.rot() + 180f);
-                    Draw.reset();
-                }
-            });
-        }};
+        @Override
+        public void init(mindustry.entities.type.Bullet b){
+            for(int i = 0; i < rays; i++){
+                Damage.collideLine(b, b.getTeam(), hitEffect, b.x, b.y, b.rot(), rayLength - Math.abs(i - (rays / 2)) * 20f);
+            }
+        }
     }
 }
