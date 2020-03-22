@@ -27,10 +27,10 @@
   "requirements": [
 		{ "item": "copper", "amount": 120 },
     { "item": "graphite", "amount": 107 },
-    { "item": "titanium": 80 },
-    { "item": "iron-high-density-plate": 10 },
-    { "item": "gold-high-density-plate": 5 },
-    { "item": "diamond-plate": 10}
+    { "item": "titanium", "amount": 80 },
+    { "item": "iron-high-density-plate", "amount": 10 },
+    { "item": "gold-high-density-plate", "amount": 5 },
+    { "item": "diamond-plate", "amount": 10}
 	],
   "category": "turret",
   "research": "salvo"
