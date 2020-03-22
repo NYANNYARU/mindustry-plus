@@ -51,7 +51,7 @@ public class Bullets implements ContentList{
             @Override
     public void load(){
 
-     fuseBullet = new BulletType(0.01f, 210){
+     fuseBullet = new BasicBulletType(0.01f, 210){
         int rays = 1;
         float rayLength = range + 10f;
         {
