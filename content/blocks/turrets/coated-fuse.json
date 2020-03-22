@@ -14,6 +14,8 @@
   "shootSound": "shotgun",
   "ammo": {
     "graphite": {
+      "rays": 1,
+      "damage": 210,
       "hitEffect": "hitLancer",
       "shootEffect": "lightningShoot",
       "smokeEffect": "lightningShoot",
