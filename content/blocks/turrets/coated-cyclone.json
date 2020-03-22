@@ -32,7 +32,7 @@
                                     "splashDamage": 30,
                                     "splashDamageRadius": 40,
                                     "ammoMultiplier": 6
-                                    "fragBullets": 1,
+                                    "fragBullets": 3,
                                     "fragBullet": "lancerLaser"
                         },
                         "plastanium": {
