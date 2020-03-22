@@ -2,7 +2,7 @@
   "type": "BurstTurret",
   "size": 2,
   "range": 200,
-  "reload": 25,
+  "reload": 30,
   "restitution": 0.02,
   "ammoEjectBack": 3,
   "cooldown": 0.02,
@@ -20,7 +20,7 @@
       "bulletHeight": 10,
       "damage": 18,
       "speed": 3,
-      "lifetime": 10,
+      "lifetime": 66.6666666,
       "ammoMultiplier": 4
     }
   },
