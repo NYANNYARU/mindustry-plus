@@ -1,0 +1,21 @@
+{
+"name": "cyclone",
+            requirements(Category.turret, ItemStack.with(Items.copper, 200, Items.titanium, 125, Items.plastanium, 80));
+            ammo(
+            Items.metaglass, Bullets.flakGlass,
+            Items.blastCompound, Bullets.flakExplosive,
+            Items.plastanium, Bullets.flakPlastic,
+            Items.surgealloy, Bullets.flakSurge
+            );
+            xRand = 4f;
+            reload = 6f;
+            range = 200f;
+            size = 3;
+            recoil = 3f;
+            rotatespeed = 10f;
+            inaccuracy = 10f;
+            shootCone = 30f;
+            shootSound = Sounds.shootSnap;
+
+            health = 145 * size * size;
+        }};
