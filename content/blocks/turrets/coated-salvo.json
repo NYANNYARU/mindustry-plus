@@ -53,7 +53,7 @@
       "lifetime": 66.666666666,
       "speed": 3,
       "ammoMultiplier": 10,
-      "reloadMultiplier": 1.5,
+      "reloadMultiplier": 1.2,
       "homingPower": 1
     },
     "thorium": {
