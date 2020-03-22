@@ -46,12 +46,12 @@ import static mindustry.Vars.*;
 public class Bullets implements ContentList{
     public static BulletType
 
-                fuseBullet
+                fuseBullet;
         
             @Override
     public void load(){
 
-fuseBullet = new BulletType(0.01f, 105){
+fuseBullet = new BulletType(0.01f, 2010, "shell"){
                 int rays = 1;
                 float rayLength = range + 10f;
 
