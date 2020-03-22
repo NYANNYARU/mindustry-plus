@@ -5,6 +5,13 @@
     "pyratite": "artilleryIncendiary",
     "blastCompound": "artilleryExplosive",
     "plastanium": "artilleryPlastic",
-    "coal": fireball
+    "coal": {
+      "pierce": true,
+      "hitTiles": false,
+      "collides": false,
+      "collidesTiles": false,
+      "hitEffect": "none",
+      "despawnEffect": "none"
+    }
   }
 }
