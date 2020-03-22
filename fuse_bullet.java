@@ -11,6 +11,12 @@ import mindustry.entities.effect.*;
 import mindustry.entities.type.*;
 import mindustry.graphics.*;
 import mindustry.world.*;
+import static mindustry.Vars.*;
+
+public class Bullets implements ContentList{
+    public static BulletType
+
+                fusebullet
 
 fuse = new ItemTurret("fuse"){{
             requirements(Category.turret, ItemStack.with(Items.copper, 225, Items.graphite, 225, Items.thorium, 100));
