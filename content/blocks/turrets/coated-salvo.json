@@ -1,5 +1,7 @@
 {
   "type": "BurstTurret",
+  "name": "coated-salvo",
+  "description": "coated salvo",
   "size": 2,
   "range": 200,
   "reload": 45,
