@@ -14,6 +14,7 @@
   "ammo": {
     "blast-compound": {
       "type": "MissileBulletType",
+      "speed": 6,
       "bulletWidth": 8,
       "bulletHeight": 8,
       "drag": -0.01,
@@ -26,8 +27,9 @@
     },
     "pyratite": {
       "type": "MissileBulletType",
-      "frontColor": "lightishOrange",
-      "backColor": "lightOrange",
+      "speed": 6,
+      "frontColor": "ffcc00",
+      "backColor": "ff9900",
       "bulletWidth": 8,
       "bulletHeight": 8,
       "bulletShrink": 0,
@@ -41,6 +43,7 @@
     },
     "surge-alloy": {
       "type": "MissileBulletType",
+      "speed": 6,
       "bulletWidth": 8,
       "bulletHeight": 8,
       "drag": -0.01,
