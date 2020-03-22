@@ -39,7 +39,7 @@
       "hitEffect": "blastExplosion",
       "incendAmount": 3
     },
-    "surge-Alloy": {
+    "surge-alloy": {
       "type": "MissileBulletType",
       "bulletWidth": 8,
       "bulletHeight": 8,
