@@ -9,7 +9,7 @@
   "recoil": 3,
   "shootShake": 2,
   "burstSpacing": 3,
-  "shots": 8,
+  "shots": 10,
   "ammoUseEffect": "shellEjectBig",
   "health": 2000,
   "shootSound": "shootBig",
