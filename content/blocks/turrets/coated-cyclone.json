@@ -22,7 +22,7 @@
                                     "splashDamageRadius": 32,
                                     "ammoMultiplier": 7,
                                     "fragBullets": 12,
-                                    "fragBullet": "flakGlass"
+                                    "fragBullet": "glassFrag"
                         },
                         "blast-compound": {
                                     "type": "FlakBulletType",
@@ -42,7 +42,7 @@
                                     "splashDamageRadius": 64,
                                     "ammoMultiplier": 4,
                                     "fragBullets": 12,
-                                    "fragBullet": "flakPlastic"
+                                    "fragBullet": "artilleryPlasticFrag"
                         },
                         "surge-alloy": {
                                     "type": "FlakBulletType",
