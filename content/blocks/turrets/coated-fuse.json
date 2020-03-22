@@ -9,6 +9,7 @@
   "spread": 10,
   "restitution": 0.05,
   "shootCone": 35,
+  "shootEffect": "none",
   "size": 3,
   "health": "4000",
   "shootSound": "shotgun",
