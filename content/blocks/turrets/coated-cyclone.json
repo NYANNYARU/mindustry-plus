@@ -1,21 +1,68 @@
 {
-"name": "cyclone",
-            requirements(Category.turret, ItemStack.with(Items.copper, 200, Items.titanium, 125, Items.plastanium, 80));
-            ammo(
-            Items.metaglass, Bullets.flakGlass,
-            Items.blastCompound, Bullets.flakExplosive,
-            Items.plastanium, Bullets.flakPlastic,
-            Items.surgealloy, Bullets.flakSurge
-            );
-            xRand = 4f;
-            reload = 6f;
-            range = 200f;
-            size = 3;
-            recoil = 3f;
-            rotatespeed = 10f;
-            inaccuracy = 10f;
-            shootCone = 30f;
-            shootSound = Sounds.shootSnap;
-
-            health = 145 * size * size;
+            "name": "coated-cyclone",
+            "description": "coated cyclone",
+            "health": "3500",
+            "reload": 4.25,
+            "range": "230",
+            "size": 3,
+            "recoil": 1,
+            "rotatespeed": 12,
+            "inaccuracy": 5,
+            "shootCone": 20,
+            "shootSound": "shootSnap",
+            "xRand": 4,
+            "ammo": {
+                        "metaglass": {
+                                    "type": "FlakBulletType",
+                                    "damage": 9,
+                                    "lifetime": 46,
+                                    "speed": 5,
+                                    "splashDamage": 40,
+                                    "splashDamageRadius": 32,
+                                    "ammoMultiplier": 7,
+                                    "fragBullets": 12,
+                                    "fragBullet": "flakGlass"
+                        },
+                        "blast-compound": {
+                                    "type": "FlakBulletType",
+                                    "damage": 15,
+                                    "lifetime": 46,
+                                    "speed": 5,
+                                    "splashDamage": 30,
+                                    "splashDamageRadius": 40,
+                                    "ammoMultiplier": 6
+                        },
+                        "plastanium": {
+                                    "type": "FlakBulletType",
+                                    "damage": 18,
+                                    "lifetime": 46,
+                                    "speed": 5,
+                                    "splashDamage": 35,
+                                    "splashDamageRadius": 64,
+                                    "ammoMultiplier": 4,
+                                    "fragBullets": 12,
+                                    "fragBullet": "flakPlastic"
+                        },
+                        "surge-alloy": {
+                                    "type": "FlakBulletType",
+                                    "damage": 21,
+                                    "lifetime": 46,
+                                    "speed": 5,
+                                    "splashDamage": 43,
+                                    "splashDamageRadius": 40,
+                                    "ammoMultiplier": 4,
+                                    "lightining": 3,
+                                    "lightningLength": 80
+                        }
+            },
+            "requirements": [
+                        { "item": "copper", "amount": 250 },
+                        { "item": "titanium", "amount": 275 },
+                        { "item": "plastanium", "amout": 100 },
+                        { "item": "iron-plate", "amount": 150 },
+                        { "item": "gold-plate", "amount": 150 },
+                        { "item": "diamond-plate", "amount": 100 }
+            ],
+            "category": "turret",
+            "research": "cyclone"
         }};
