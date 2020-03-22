@@ -21,8 +21,8 @@
                                     "splashDamage": 40,
                                     "splashDamageRadius": 32,
                                     "ammoMultiplier": 7,
-                                    "fragBullets": 12,
-                                    "fragBullet": "glassFrag"
+                                    "fragBullets": 8,
+                                    "fragBullet": "fireball"
                         },
                         "blast-compound": {
                                     "type": "FlakBulletType",
@@ -32,7 +32,7 @@
                                     "splashDamage": 30,
                                     "splashDamageRadius": 40,
                                     "ammoMultiplier": 6
-                                    "fragBullets": 3
+                                    "fragBullets": 3,
                                     "fragBullet": "lancerLaser"
                         },
                         "plastanium": {
@@ -43,8 +43,8 @@
                                     "splashDamage": 35,
                                     "splashDamageRadius": 64,
                                     "ammoMultiplier": 4,
-                                    "fragBullets": 12,
-                                    "fragBullet": "artilleryPlasticFrag"
+                                    "fragBullets": 5,
+                                    "fragBullet": "standardThoriumBig"
                         },
                         "surge-alloy": {
                                     "type": "FlakBulletType",
@@ -54,8 +54,8 @@
                                     "splashDamage": 43,
                                     "splashDamageRadius": 40,
                                     "ammoMultiplier": 4,
-                                    "lightining": 5,
-                                    "lightningLength": 30
+                                    "lightining": 10,
+                                    "lightningLength": 80
                         }
             },
             "requirements": [
