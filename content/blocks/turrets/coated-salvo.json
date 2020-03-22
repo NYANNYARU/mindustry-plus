@@ -1,0 +1,37 @@
+{
+  "type": "BurstTurret",
+  "size": 2,
+  "range": 200,
+  "reload": 25,
+  "restitution": 0.02,
+  "ammoEjectBack": 3,
+  "cooldown": 0.02,
+  "recoil": 3,
+  "shootShake": 2,
+  "burstSpacing": 3,
+  "shots": 8,
+  "ammoUseEffect": "shellEjectBig",
+  "health": 2000,
+  "shootSound": "shootBig",
+  "ammo": {
+    "copper": {
+      "type": "BasicBulletType",
+      "bulletWidth": 7.5,
+      "bulletHeight": 10,
+      "damage": 18,
+      "speed": 20,
+      "lifetime": 10,
+      "ammoMultiplier": 4
+    }
+  },
+  "requirements": [
+		{ "item": "copper", "amount": 120 },
+    { "item": "graphite", "amount": 107 },
+    { "item": "titanium": 80 },
+    { "item": "iron-high-density-plate": 10 },
+    { "item": "gold-high-density-plate": 5 },
+    { "item": "diamond-plate": 10}
+	],
+  "category": "turret",
+  "research": "salvo"
+}
