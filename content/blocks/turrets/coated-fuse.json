@@ -13,7 +13,7 @@
   "health": "4000",
   "shootSound": "shotgun",
   "ammo": {
-    "graphite": {
+    "graphite": "lancerLaser"{
       "damage": 210,
       "hitEffect": "hitLancer",
       "shootEffect": "lightningShoot",
