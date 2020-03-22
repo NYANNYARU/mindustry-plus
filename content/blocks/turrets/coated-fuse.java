@@ -1,5 +1,89 @@
-        coated_fuse = new ItemTurret("coated-fuse"){{
-            requirements(research.fuse, Category.turret, ItemStack.with(Items.copper, 275, Items.graphite, 250, Items.thorium, 135, Items.iron, 250, Items.gold, 250, Items.diamond, 250));
+package mindustry.content;
+
+import arc.*;
+import arc.struct.*;
+import arc.graphics.*;
+import arc.graphics.g2d.*;
+import arc.math.*;
+import arc.util.*;
+import mindustry.*;
+import mindustry.ctype.*;
+import mindustry.entities.*;
+import mindustry.entities.bullet.*;
+import mindustry.entities.type.*;
+import mindustry.gen.*;
+import mindustry.graphics.*;
+import mindustry.type.*;
+import mindustry.world.*;
+import mindustry.world.blocks.*;
+import mindustry.world.blocks.defense.*;
+import mindustry.world.blocks.defense.turrets.*;
+import mindustry.world.blocks.distribution.*;
+import mindustry.world.blocks.liquid.*;
+import mindustry.world.blocks.logic.*;
+import mindustry.world.blocks.power.*;
+import mindustry.world.blocks.production.*;
+import mindustry.world.blocks.sandbox.*;
+import mindustry.world.blocks.storage.*;
+import mindustry.world.blocks.units.*;
+import mindustry.world.consumers.*;
+import mindustry.world.meta.*;
+import mindustry.world.modules.*;
+
+public class Blocks implements ContentList{
+    public static Block
+
+    //environment
+    air, spawn, deepwater, water, taintedWater, tar, stone, craters, charr, sand, darksand, ice, snow, darksandTaintedWater,
+    holostone, rocks, sporerocks, icerocks, cliffs, sporePine, snowPine, pine, shrubs, whiteTree, whiteTreeDead, sporeCluster,
+    iceSnow, sandWater, darksandWater, duneRocks, sandRocks, moss, sporeMoss, shale, shaleRocks, shaleBoulder, sandBoulder, grass, salt,
+    metalFloor, metalFloorDamaged, metalFloor2, metalFloor3, metalFloor5, ignarock, magmarock, hotrock, snowrocks, rock, snowrock, saltRocks,
+    darkPanel1, darkPanel2, darkPanel3, darkPanel4, darkPanel5, darkPanel6, darkMetal,
+    pebbles, tendrils,
+
+    //ores
+    oreCopper, oreLead, oreScrap, oreCoal, oreTitanium, oreThorium,
+
+    //crafting
+    siliconSmelter, kiln, graphitePress, plastaniumCompressor, multiPress, phaseWeaver, surgeSmelter, pyratiteMixer, blastMixer, cryofluidMixer,
+    melter, separator, sporePress, pulverizer, incinerator, coalCentrifuge,
+
+    //sandbox
+    powerSource, powerVoid, itemSource, itemVoid, liquidSource, liquidVoid, message, illuminator,
+
+    //defense
+    copperWall, copperWallLarge, titaniumWall, titaniumWallLarge, plastaniumWall, plastaniumWallLarge, thoriumWall, thoriumWallLarge, door, doorLarge,
+    phaseWall, phaseWallLarge, surgeWall, surgeWallLarge, mender, mendProjector, overdriveProjector, forceProjector, shockMine,
+    scrapWall, scrapWallLarge, scrapWallHuge, scrapWallGigantic, thruster, //ok, these names are getting ridiculous, but at least I don't have humongous walls yet
+
+    //transport
+    conveyor, titaniumConveyor, armoredConveyor, distributor, junction, itemBridge, phaseConveyor, sorter, invertedSorter, router, overflowGate, underflowGate, massDriver,
+
+    //liquid
+    mechanicalPump, rotaryPump, thermalPump, conduit, pulseConduit, platedConduit, liquidRouter, liquidTank, liquidJunction, bridgeConduit, phaseConduit,
+
+    //power
+    combustionGenerator, thermalGenerator, turbineGenerator, differentialGenerator, rtgGenerator, solarPanel, largeSolarPanel, thoriumReactor,
+    impactReactor, battery, batteryLarge, powerNode, powerNodeLarge, surgeTower, diode,
+
+    //production
+    mechanicalDrill, pneumaticDrill, laserDrill, blastDrill, waterExtractor, oilExtractor, cultivator,
+
+    //storage
+    coreShard, coreFoundation, coreNucleus, vault, container, unloader, launchPad, launchPadLarge,
+
+    //turrets
+    duo, scatter, scorch, hail, arc, wave, lancer, swarmer, salvo, fuse, ripple, cyclone, spectre, meltdown,
+
+    //units
+    commandCenter, draugFactory, spiritFactory, phantomFactory, wraithFactory, ghoulFactory, revenantFactory, daggerFactory, crawlerFactory, titanFactory,
+    fortressFactory, repairPoint,
+
+    //upgrades
+    dartPad, deltaPad, tauPad, omegaPad, javelinPad, tridentPad, glaivePad;
+            
+coated_fuse = new ItemTurret("coated-fuse"){{
+            requirements(Category.turret, ItemStack.with(Items.copper, 275, Items.graphite, 250, Items.thorium, 135, Items.iron, 250, Items.gold, 250, Items.diamond, 250));
 
             reload = 25f;
             shootShake = 2f;
