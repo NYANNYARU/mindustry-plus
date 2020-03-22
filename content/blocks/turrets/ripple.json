@@ -1,0 +1,10 @@
+{
+  "ammo": {
+    "graphite": "artilleryDense",
+    "silicon": "artilleryHoming",
+    "pyratite": "artilleryIncendiary",
+    "blastCompound": "artilleryExplosive",
+    "plastanium": "artilleryPlastic",
+    "coal": fireball
+  }
+}
