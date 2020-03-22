@@ -21,6 +21,7 @@
       "lifetime": 11.1111,
       "despawnEffect": "none",
       "pierce": true
+    }
   },
   "requirements": [
     { "item": "copper", "amount": 275 },
