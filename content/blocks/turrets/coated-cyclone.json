@@ -58,7 +58,7 @@
             "requirements": [
                         { "item": "copper", "amount": 250 },
                         { "item": "titanium", "amount": 275 },
-                        { "item": "plastanium", "amout": 100 },
+                        { "item": "plastanium", "amount": 100 },
                         { "item": "iron-plate", "amount": 150 },
                         { "item": "gold-plate", "amount": 150 },
                         { "item": "diamond-plate", "amount": 100 }
