@@ -12,4 +12,24 @@
   "size": 3,
   "health": "4000",
   "shootSound": "shotgun",
+  "ammo": {
+    "graphite": {
+      "hitEffect": "hitLancer",
+      "shootEffect": "lightningShoot",
+      "smokeEffect": "lightningShoot",
+      "lifetime": 11.1111,
+      "despawnEffect": "none",
+      "pierce": true
+    }
+  },
+  "requirements": [
+    { "item": "copper", "amount": 275 },
+    { "item": "graphite", "amount": 250 },
+    { "item": "iron-high-density-plate", "amount": 50 },
+    { "item": "gold-high-density-plate", "amount": 50 },
+    { "item": "diamond-high-density-plate", "amount": 50},
+    { "item": "thorium", "amount": 135 }
+  ],
+  "category": "turret",
+  "research": "fuse"
 }
