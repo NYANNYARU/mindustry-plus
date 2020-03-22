@@ -1,5 +1,5 @@
         coated_fuse = new ItemTurret("coated-fuse"){{
-            requirements(Category.turret, ItemStack.with(Items.copper, 275, Items.graphite, 250, Items.thorium, 135, Items.iron, 250, Items.gold, 250, Items.diamond, 250));
+            requirements(research.fuse, Category.turret, ItemStack.with(Items.copper, 275, Items.graphite, 250, Items.thorium, 135, Items.iron, 250, Items.gold, 250, Items.diamond, 250));
 
             reload = 25f;
             shootShake = 2f;
