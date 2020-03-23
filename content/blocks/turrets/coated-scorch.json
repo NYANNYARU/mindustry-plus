@@ -15,7 +15,7 @@
     "coal": "basicFlame",
     "pyratite": "pyraFlame",
   },
-  "requirements" [
+  "requirements": [
     { "item": "copper", "amount": 40 },
     { "item": "graphite", "amount": 36 },
     { "item": "iron": "amount": 2 },
