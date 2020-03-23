@@ -26,6 +26,7 @@
       "lifetime": 100,
       "knockback": 1,
       "damage": 6,
+      "effect": "barning",
       "ammoMultiplier": 4
     },
     "cryofluid": {
@@ -34,6 +35,8 @@
       "lifetime": 100,
       "knockback": 1,
       "damage": 0,
+      "incendAmount": 0.1,
+      "effect": "freezing",
       "ammoMultiPlier": 4
     },
     "oil": {
@@ -42,6 +45,7 @@
       "lifetime": 100,
       "knockback": 1,
       "damage": 0,
+      "effect": "tarred",
       "ammoMultiplier": 4
     }
   },
