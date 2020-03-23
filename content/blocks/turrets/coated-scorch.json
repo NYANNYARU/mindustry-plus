@@ -18,9 +18,9 @@
   "requirements": [
     { "item": "copper", "amount": 40 },
     { "item": "graphite", "amount": 36 },
-    { "item": "iron": "amount": 2 },
-    { "item": "gold": "amount": 1 },
-    { "item": "diamond": "amount": 1 }
+    { "item": "iron", "amount": 2 },
+    { "item": "gold", "amount": 1 },
+    { "item": "diamond", "amount": 1 }
   ],
   "category": "turret",
   "research": "scorch"
