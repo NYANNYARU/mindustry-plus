@@ -13,8 +13,10 @@
   "health": 1500,
   "shootSound": "flame",
   "ammo": {
-    "coal": "bombExplosive",
-    "pyratite": "bombIncendiary",
+    "coal": {
+      "type": "" 
+    }
+    "pyratite": 
   },
   "requirements": [
     { "item": "copper", "amount": 40 },
