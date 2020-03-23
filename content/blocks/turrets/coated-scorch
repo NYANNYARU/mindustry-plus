@@ -1,0 +1,27 @@
+{
+  "type": "ItemTurret",
+  "name": "coated-scorch",
+  "description": "coated scorch",
+  "recoil": 0,
+  "reload": 3.5,
+  "coolantMultiplier": 3,
+  "range": 100;
+  "shootCone": 50f;
+  "targetAir": true,
+  "ammoUseEffect": "none",
+  "health": 1500,
+  "shootSound": "flame",
+  "ammo": {
+    "coal": "basicFlame",
+    "pyratite": "pyraFlame",
+  },
+  "requirements" [
+    { "item": "copper", "amount": 40 },
+    { "item": "graphite", "amount": 36 },
+    { "item": "iron": "amount": 2 },
+    { "item": "gold": "amount": 1 },
+    { "item": "diamond": "amount": 1 }
+  ],
+  "category": "turret",
+  "research": "scorch"
+}
