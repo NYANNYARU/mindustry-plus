@@ -13,8 +13,8 @@
   "health": 1500,
   "shootSound": "flame",
   "ammo": {
-    "coal": "basicFlame",
-    "pyratite": "pyraFlame",
+    "coal": "pbombIncendiary",
+    "pyratite": "bombIncendiary",
   },
   "requirements": [
     { "item": "copper", "amount": 40 },
