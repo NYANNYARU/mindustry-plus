@@ -13,7 +13,7 @@
   "health": 1500,
   "shootSound": "flame",
   "ammo": {
-    "coal": "pbombIncendiary",
+    "coal": "bombExplosive",
     "pyratite": "bombIncendiary",
   },
   "requirements": [
