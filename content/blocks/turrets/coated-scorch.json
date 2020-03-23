@@ -5,8 +5,8 @@
   "recoil": 0,
   "reload": 3.5,
   "coolantMultiplier": 3,
-  "range": 100;
-  "shootCone": 50f;
+  "range": 100,
+  "shootCone": 50,
   "targetAir": true,
   "ammoUseEffect": "none",
   "health": 1500,
