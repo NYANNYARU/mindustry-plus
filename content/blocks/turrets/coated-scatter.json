@@ -3,7 +3,7 @@
   "name": "coated-scatter",
   "description": "coated scatter",
   "reload": 14,
-  "range": 225
+  "range": 225,
   "size": 2,
   "burstSpacing": 2.5,
   "shots": 3,
@@ -39,7 +39,7 @@
       "shootEffect": "shootSmall",
       "hitEffect": "flakExplosion",
       "splashDamage": 38,
-      "splashDamageRadius": 24
+      "splashDamageRadius": 24,
       "ammoMultiplier": 6,
     },
     "metaglass": {
