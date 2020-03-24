@@ -5,7 +5,7 @@
   "recoil": 0,
   "heatColor": "ff0000",
   "reload": 3.5,
-  "shots": 3
+  "shots": 3,
   "spread": 10,
   "coolantMultiplier": 3,
   "range": 60,
