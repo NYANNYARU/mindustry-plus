@@ -4,7 +4,7 @@
   "description": "coated lancer",
   "range": 185,
   "chargeTime": 5,
-  "chargeMaxDelay": 1,
+  "chargeMaxDelay": 5,
   "chargeEffects": 10,
   "shootType": "lancerLaser",
   "recoil": 1,
@@ -19,7 +19,7 @@
   "size": 2,
   "health": 3000,
   "targetAir": true,
-  "shootSound": "meltdwonlaser",
+  "shootSound": "laser",
   "requirements": [
 		{ "item": "copper", "amount": 50 },
     { "item": "lead", "amount": 100 },
