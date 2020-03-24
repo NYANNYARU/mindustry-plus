@@ -5,7 +5,7 @@
   "range": 185,
   "chargeTime": 5,
   "chargeMaxDelay": 5,
-  "chargeEffects": 7,
+  "chargeEffects": 1,
   "shootType": "lancerLaser",
   "recoil": 1,
   "reload": 90,
