@@ -1,0 +1,67 @@
+{
+  "type": "BurstTurret",
+  "name": "coated-scatter",
+  "description": "coated scatter",
+  "reload": 14,
+  "range": 225
+  "size": 2,
+  "burstSpacing": 2.5,
+  "shots": 3,
+  "targetGround": false,
+  "recoil": 0.5,
+  "rotatespeed": 15,
+  "inaccuracy": 12,
+  "shootCone": 35,
+  "health": 1000,
+  "shootSound": shootSnap,
+  "ammo": {
+    "scrap": {
+      "type": "FlakBulletType",
+      "bulletWidth": 6,
+      "bulletHeight": 8,
+      "lifetime"56.25,
+      "speed": 4,
+      "damage": 6,
+      "shootEffect": "shootSmall",
+      "hitEffect": "flakExplosion",
+      "splashDamage": 33,
+      "splashDamageRadius": 32,
+      "ammoMultiplier": 7,
+      "reloadMultiplier": 0.75
+    },
+    "lead": {
+      "type": "FlakBulletType",
+      "bulletWidth": 6,
+      "bulletHeight": 8,
+      "lifetime": 56.25,
+      "speed": 4,
+      "damage": 6,
+      "shootEffect": "shootSmall",
+      "hitEffect": "flakExplosion",
+      "splashDamage": 38,
+      "splashDamageRadius": 24
+      "ammoMultiplier": 6,
+    },
+    "metaglass": {
+      "lifetime": 56.25,
+      "speed": "4",
+      "damage": 6,
+      "ammoMultiplier": 7,
+      "shootEffect": "shootSmall",
+      "reloadMultiplier": 0.9,
+      "bulletWidth": 6,
+      "bulletHeight": 8,
+      "hitEffect": "flakExplosion",
+      "splashDamage": 41,
+      "splashDamageRadius": 40,
+      "fragBullet": "glassFrag",
+      "fragBullets": 10
+    }
+  },
+  "requirements": [
+    { "item": "copper", "amount": 100 },
+    { "item": "lead", "amount": 60 }
+  ],
+  "category": "turret",
+  "research": "scatter"
+}
