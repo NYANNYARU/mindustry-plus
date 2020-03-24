@@ -64,7 +64,8 @@
                         { "item": "plastanium", "amount": 100 },
                         { "item": "iron-high-density-plate", "amount": 500 },
                         { "item": "gold-high-density-plate", "amount": 500 },
-                        { "item": "diamond-high-density-plate", "amount": 500 }
+                        { "item": "diamond-high-density-plate", "amount": 500 },
+                        { "item": "diagold-alloy", "amount": 300 }
             ],
             "category": "turret",
             "research": "cyclone"
