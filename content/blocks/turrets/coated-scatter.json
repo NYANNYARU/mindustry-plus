@@ -13,13 +13,13 @@
   "inaccuracy": 12,
   "shootCone": 35,
   "health": 1000,
-  "shootSound": shootSnap,
+  "shootSound": "shootSnap",
   "ammo": {
     "scrap": {
       "type": "FlakBulletType",
       "bulletWidth": 6,
       "bulletHeight": 8,
-      "lifetime"56.25,
+      "lifetime": 56.25,
       "speed": 4,
       "damage": 6,
       "shootEffect": "shootSmall",
