@@ -5,18 +5,18 @@
   "recoil": 0,
   "heatColor": "ff0000",
   "reload": 3.5,
+  "shots": 3
+  "spread": 10,
   "coolantMultiplier": 3,
-  "range": 100,
+  "range": 60,
   "shootCone": 50,
   "targetAir": true,
   "ammoUseEffect": "none",
   "health": 1500,
   "shootSound": "flame",
   "ammo": {
-    "coal": {
-      "type": "" 
-    }
-    "pyratite": 
+    "coal": "basicFlame",
+    "pyratite": "pyraFlame"
   },
   "requirements": [
     { "item": "copper", "amount": 40 },
