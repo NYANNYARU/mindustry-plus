@@ -6,7 +6,7 @@
   "heatColor": "ff0000",
   "reload": 3.5,
   "shots": 3,
-  "spread": 10,
+  "spread": 20,
   "coolantMultiplier": 3,
   "range": 60,
   "shootCone": 50,
