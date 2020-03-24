@@ -1,0 +1,77 @@
+{
+  "type": "ArtilleryTurret",
+  "name": "coated-hail",
+  "description": "coated hai;",
+  "health": 1000,
+  "heatColor": "ff0000",
+  "shootEffect": "shootSmallSmoke",
+  "shootSound": "artillery",
+  "range": 280,
+  "reload": 50,
+  "inaccuracy": 0.5,
+  "shots": 2,
+  "velocityInaccuracy": 0.025,
+  "ammo": {
+    "graphite": {
+      "type": "ArtilleryBulletType",
+      "damage": 0,
+      "bulletWidth": 12,
+      "bulletHeight": 12,
+      "speed": 2.5,
+      "knockback": 1,
+      "ammoMultiplier": 4,
+      "splashDamage": 50,
+      "splashDamageRadius": 40
+    },
+    "silicon": {
+      "type": "ArtilleryBulletType",
+      "damage": 0,
+      "bulletWidth": 12,
+      "bulletHeight": 12,
+      "speed": 2.5,
+      "knockback": 1,
+      "homingPower": "1",
+      "ammoMultiplier": 4,
+      "splashDamage": 50,
+      "splashDamageRadius": 40
+    },
+    "pyratite": {
+      "type": "ArtilleryBulletType",
+      "frontColor": "ff2200",
+      "back Color": "ff5500",
+      "damage": 0,
+      "bulletWidth": 12,
+      "bulletHeight": 12,
+      "speed": 2.5,
+      "knockback": 1,
+      "incendAmount": 2.5,
+      "ammoMultiplier": 4,
+      "splashDamage": 45,
+      "splashDamageRadius": 40
+    },
+    "plastanium": {
+      "type": "ArtilleryBulletType",
+      "frontColor": "ccffcc",
+      "backColor": "55ff55",
+      "damage": 0,
+      "bulletWidth": 12,
+      "bulletHeight": 12,
+      "speed": 2.5,
+      "knockback": 1.4,
+      "ammoMultiplier": 4,
+      "fragBullets": 15,
+      "fragBullet": "artilleryPlasticFrag",
+      "splashDamage": 67,
+      "splashDamageRadius": 48
+    },
+  },
+  "requirements": [
+    { "item": "copper", "amount": 60 },
+    { "item": "graphite", "amount": 25 },
+    { "item": "iron-plate", "amount": 5 },
+    { "item": "gold-plate", "amount": 5 },
+    { "item": "diamond", "amount": 1}
+  ],
+  "category": "turret",
+  "research": "hail"
+}
