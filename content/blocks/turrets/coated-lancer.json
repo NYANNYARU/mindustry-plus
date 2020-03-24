@@ -8,7 +8,7 @@
   "chargeEffects": 10,
   "shootType": "lancerLaser",
   "recoil": 1,
-  "reload": 60,
+  "reload": 70,
   "cooldown": 0.01,
   "powerUse": 3.5,
   "shootEffect": "lancerLaserShoot",
