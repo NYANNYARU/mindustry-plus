@@ -1,0 +1,25 @@
+{
+  "type": "DoubleTurret",
+  "name": "coated-duo",
+  "description": "coated duo",
+  "inaccuracy": 1,
+  "shots": 2,
+  "reload": 15
+  "range": 150,
+  "restitution": 0.015,
+  "shootCone": 15,
+  "ammoUseEffect": "shellEjectSmall",
+  "health": "1000",
+  "rotatespeed": 15,
+  "ammo": {
+    "copper": {
+      "type": "BasicBulletType",
+      "bulletWidth": 7,
+      "bulletHeight": 9,
+      "lifetime": 50,
+      "speed": 3,
+      "damage": 9,
+      "ammoMultiplier": 4,
+    }
+  }
+}
