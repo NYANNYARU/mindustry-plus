@@ -6,7 +6,7 @@
   "chargeTime": 5,
   "chargeMaxDelay": 1,
   "chargeEffects": 10,
-  "shootType": "lancerLaser",
+  "shootType": "meltdownLaser",
   "recoil": 1,
   "reload": 90,
   "cooldown": 0.01,
