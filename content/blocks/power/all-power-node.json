@@ -5,6 +5,7 @@
   "size": 6,
   "laserRange": 500,
   "maxNodes": 1000,
+  "buildCostMultiplier": 7.171886206072197,
   "requirements": [
     { "item": "lead", "amount": 1000 },
     { "item": "titanium", "amount": 1000 },
