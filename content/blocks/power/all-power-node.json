@@ -2,6 +2,7 @@
   "type": "PowerNode",
   "name": "all-power-node",
   "description": "all power node",
+  "size": 6,
   "laserRange": "3000",
   "maxNodes": 1000,
   "requirements": [
