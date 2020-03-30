@@ -6,6 +6,7 @@
 	"size": 1,
 	"range": 16.1,
 	"speed": 50,
+	"hasPower": false,
 	"bufferCapacity": 20,
 	"requirements": [
 		{ "item": "copper", "amount": 5 },
