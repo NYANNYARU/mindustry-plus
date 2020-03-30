@@ -60,7 +60,10 @@
   },
   "requirements": [
     { "item": "copper", "amount": 100 },
-    { "item": "lead", "amount": 60 }
+    { "item": "lead", "amount": 60 },
+    { "item": "iron-plate", "amount": 5 },
+    { "item": "gold-plate", "amount": 5 },
+    { "item": "diamond-plate", "amount": 1 },
   ],
   "category": "turret",
   "research": "scatter"
