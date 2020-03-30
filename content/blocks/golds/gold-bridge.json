@@ -5,6 +5,7 @@
 	"health": 300,
 	"size": 1,
 	"range": 21.1,
+	"hasPower": false,
 	"speed": 50,
 	"bufferCapacity": 20,
 	"requirements": [
