@@ -15,7 +15,7 @@
   "speedBoost": 2.0,
   "speedBoostPhase": 1.0,
 	"category": "effect",
-	"research": "overdrive-projector"
+	"research": "overdrive-projector",
   "requirements": [
     { "item": "lead", "amount": 150 },
     { "item": "titanium": "amount": 100 },
