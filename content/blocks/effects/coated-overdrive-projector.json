@@ -7,7 +7,7 @@
       "items": [
         { "item": "phase-fabric", "amount": 1 },
       ],
-      "optional": false
+      "optional": true
     }
   },
   "size": 2,
