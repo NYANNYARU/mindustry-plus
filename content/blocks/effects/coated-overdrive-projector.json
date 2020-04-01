@@ -5,8 +5,9 @@
     "power": 4,
     "items": {
       "items": [
-        { "item": "phase-fabric", "amount": 1 }
+        { "item": "phase-fabric", "amount": 1 },
         "booster": true,
+      ]
     }
   },
   "size": 2,
