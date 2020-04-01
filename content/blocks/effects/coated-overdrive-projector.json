@@ -1,0 +1,27 @@
+{
+  "type": "OverdriveProjector",
+  "name": "coated-overdrive-projector",
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        { "item": "phase-fabric", "amount": 1 }
+        "booster": true,
+    }
+  },
+  "size": 2,
+  "range": 160,
+  "speedBoost": 2.0,
+  "speedBoostPhase": 1.0,
+	"category": "effect",
+	"research": "overdrive-projector"
+  "requirements": [
+    { "item": "lead", "amount": 150 },
+    { "item": "titanium": "amount": 100 },
+    { "item": "silicon", "amount": 100 },
+    { "item": "plastanium", "amount": 50 },
+    { "item": "iron-plate", "amount": 25 },
+    { "item": "gold-plate", "amount": 20 },
+    { "item": "diamond-plate", "amount": 10 }
+  ]
+}
