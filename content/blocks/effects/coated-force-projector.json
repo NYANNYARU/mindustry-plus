@@ -6,8 +6,8 @@
   "phaseRadiusBoost": "135",
   "radius": "150",
   "breakage": 1250,
-  "cooldownNormal": 1.25,
-  "cooldownLiquid": 1,
+  "cooldownNormal": 2,
+  "cooldownLiquid": 2.5,
   "cooldownBrokenBase": 2,
   "consumes": {
     "power": 4,
