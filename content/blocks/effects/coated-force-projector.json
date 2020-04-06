@@ -8,7 +8,7 @@
   "breakage": 1250,
   "cooldownNormal": 1.25,
   "cooldownLiquid": 1,
-  "cooldownBrokenBase": 0.75,
+  "cooldownBrokenBase": 2,
   "consumes": {
     "power": 4,
     "items": {
