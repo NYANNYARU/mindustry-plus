@@ -1,0 +1,31 @@
+{
+  "type": "ForceProjector",
+  "name": "coated-force-projector",
+  "description": "coated force projector",
+  "phaseRadiusBoost": "135",
+  "radius": "150",
+  "breakage": 1250,
+  "cooldownNormal": 1.25,
+  "cooldownLiquid": 1,
+  "cooldownBrokenBase": 0.125,
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        { "item": "phase-fabric", "amount": 1 },
+      ],
+      "optional": true,
+      "booster": true
+    }
+  },
+  "category": "effect",
+	"research": "force-projector",
+  "requirements": [
+    { "item": "lead", "amount": 150 },
+    { "item": "titanium", "amount": 100 },
+    { "item": "silicon", "amount": 200 },
+    { "item": "iron-plate", "amount": 15 },
+    { "item": "gold-plate", "amount": 10 },
+    { "item": "diamond-plate", "amount": 5 }
+  ]
+}
