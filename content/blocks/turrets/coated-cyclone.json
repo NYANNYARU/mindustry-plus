@@ -21,7 +21,7 @@
                                     "splashDamage": 40,
                                     "splashDamageRadius": 32,
                                     "ammoMultiplier": 7,
-                                    "fragBullets": 20,
+                                    "fragBullets": 3,
                                     "fragBullet": "fireball"
                         },
                         "blast-compound": {
@@ -32,8 +32,8 @@
                                     "splashDamage": 30,
                                     "splashDamageRadius": 40,
                                     "ammoMultiplier": 6,
-                                    "fragBullets": 3,
-                                    "fragBullet": "lancerLaser"
+                                    "fragBullets": 2,
+                                    "fragBullet": "meltdownLaser"
                         },
                         "plastanium": {
                                     "type": "FlakBulletType",
@@ -43,7 +43,7 @@
                                     "splashDamage": 35,
                                     "splashDamageRadius": 64,
                                     "ammoMultiplier": 4,
-                                    "fragBullets": 5,
+                                    "fragBullets": 3,
                                     "fragBullet": "standardThoriumBig"
                         },
                         "surge-alloy": {
@@ -54,18 +54,18 @@
                                     "splashDamage": 43,
                                     "splashDamageRadius": 40,
                                     "ammoMultiplier": 4,
-                                    "lightining": 12,
-                                    "lightningLength": 50
+                                    "lightining": 5,
+                                    "lightningLength": 20
                         }
             },
             "requirements": [
                         { "item": "copper", "amount": 250 },
                         { "item": "titanium", "amount": 275 },
                         { "item": "plastanium", "amount": 100 },
-                        { "item": "iron-high-density-plate", "amount": 500 },
-                        { "item": "gold-high-density-plate", "amount": 500 },
-                        { "item": "diamond-high-density-plate", "amount": 500 },
-                        { "item": "diagold-alloy", "amount": 300 }
+                        { "item": "iron-high-density-plate", "amount": 250 },
+                        { "item": "gold-high-density-plate", "amount": 250 },
+                        { "item": "diamond-high-density-plate", "amount": 250 },
+                        { "item": "diagold-alloy", "amount": 50 }
             ],
             "category": "turret",
             "research": "cyclone"
