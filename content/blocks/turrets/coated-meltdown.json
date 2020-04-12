@@ -20,10 +20,10 @@
   "requirements": [
     { "item": "copper", "amount": 750 },
     { "item": "lead", "amount": 750 },
-    { "item": "iron-high-density-plate", "amount": 400 },
-    { "item": "gold-high-density-plate", "amount": 400 },
-    { "item": "diamond-high-density-plate", "amount": 400},
-    { "item": "diagold-alloy", "amount": 200 }
+    { "item": "iron-high-density-plate", "amount": 200 },
+    { "item": "gold-high-density-plate", "amount": 200 },
+    { "item": "diamond-high-density-plate", "amount": 200},
+    { "item": "diagold-alloy", "amount": 100 }
   ],
   "category": "turret",
   "research": "meltdown"
