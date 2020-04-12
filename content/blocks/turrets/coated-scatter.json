@@ -2,7 +2,7 @@
   "type": "BurstTurret",
   "name": "coated-scatter",
   "description": "coated scatter",
-  "reload": 14,
+  "reload": 12.5,
   "range": 225,
   "size": 2,
   "burstSpacing": 2.5,
