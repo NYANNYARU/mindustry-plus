@@ -21,7 +21,7 @@
                                     "splashDamage": 40,
                                     "splashDamageRadius": 32,
                                     "ammoMultiplier": 7,
-                                    "fragBullets": 3,
+                                    "fragBullets": 2,
                                     "fragBullet": "fireball"
                         },
                         "blast-compound": {
@@ -54,7 +54,7 @@
                                     "splashDamage": 43,
                                     "splashDamageRadius": 40,
                                     "ammoMultiplier": 4,
-                                    "lightining": 5,
+                                    "lightining": 2,
                                     "lightningLength": 20
                         }
             },
@@ -62,10 +62,10 @@
                         { "item": "copper", "amount": 250 },
                         { "item": "titanium", "amount": 275 },
                         { "item": "plastanium", "amount": 100 },
-                        { "item": "iron-high-density-plate", "amount": 250 },
-                        { "item": "gold-high-density-plate", "amount": 250 },
-                        { "item": "diamond-high-density-plate", "amount": 250 },
-                        { "item": "diagold-alloy", "amount": 50 }
+                        { "item": "iron-high-density-plate", "amount": 75 },
+                        { "item": "gold-high-density-plate", "amount": 75 },
+                        { "item": "diamond-high-density-plate", "amount": 75 },
+                        { "item": "diagold-alloy", "amount": 25 }
             ],
             "category": "turret",
             "research": "cyclone"
