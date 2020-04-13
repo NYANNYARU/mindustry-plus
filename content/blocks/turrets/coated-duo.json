@@ -18,7 +18,7 @@
       "bulletHeight": 18,
       "lifetime": 50,
       "speed": 3,
-      "damage": 9,
+      "damage": 20,
       "ammoMultiplier": 4,
     },
     "graphite": {
