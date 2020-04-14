@@ -11,7 +11,11 @@
     {"item": "silicon", "amount": 750}
 	],
 	"launchPeriod": 10,
-	"configureObjective": "Launched",
+	"configureObjective": [
+		{
+			"type": "Launched",
+			"zone": "river-bridge-buttole"
+		}
 	"requirements": [
 		{
 			"type": "Launched",
