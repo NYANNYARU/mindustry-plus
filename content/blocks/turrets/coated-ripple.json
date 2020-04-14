@@ -9,9 +9,9 @@
   "shootSound": "artillery",
   "range": 400,
   "reload": 50,
-  "inaccuracy": 7,
+  "inaccuracy": 5,
   "shots": 6,
-  "velocityInaccuracy": 0.1,
+  "velocityInaccuracy": 0.15,
   "ammo": {
     "graphite": {
       "lifetime": 160,
@@ -99,14 +99,15 @@
       "backColor": "000000",
       "hitSound": "none",
       "hitShake": 0,
-      "hitEffect": "none",
-      "damage": 1,
-      "bulletWidth": 0.25,
-      "bulletHeight": 0.25,
-      "trailEffect": "fire",
+      "damage": 0,
+      "bulletWidth": 1,
+      "bulletHeight": 1,
       "speed": 5,
+      "knockback": 0,
       "incendAmount": 2,
       "ammoMultiplier": 4,
+      "splashDamage": 1,
+      "splashDamageRadius": 8
     }
   },
   "requirements": [
