@@ -14,7 +14,7 @@
 	"configureObjective": {
 			"type": "Launched",
 			"zone": "river-bridge-buttle"
-	}
+	},
 	"requirements": [
 		{
 			"type": "Launched",
