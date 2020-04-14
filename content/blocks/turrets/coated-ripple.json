@@ -99,6 +99,7 @@
       "backColor": "000000",
       "hitSound": "none",
       "hitEffect": "none",
+      "trailEffect": "fire",
       "hitShake": 0,
       "damage": 0,
       "bulletWidth": 1,
