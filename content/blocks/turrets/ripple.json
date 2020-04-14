@@ -1,5 +1,5 @@
 {
-  "ammo"{
+  "ammo":{
     "coal": {
       "type": "ArtilleryBulletType",
       "frontColor": "222222",
