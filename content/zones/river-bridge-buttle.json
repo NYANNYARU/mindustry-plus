@@ -11,12 +11,10 @@
     {"item": "silicon", "amount": 750}
 	],
 	"launchPeriod": 10,
-	"configureObjective": [
-		{
+	"configureObjective": {
 			"type": "Launched",
 			"zone": "river-bridge-buttle"
-		}
-	],
+	}
 	"requirements": [
 		{
 			"type": "Launched",
