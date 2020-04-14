@@ -1,0 +1,20 @@
+{
+  "ammo"{
+    "coal": {
+      "type": "ArtilleryBulletType",
+      "frontColor": "222222",
+      "backColor": "000000",
+      "hitSound": "none",
+      "hitShake": 0,
+      "hitEffect": "none",
+      "damage": 1,
+      "bulletWidth": 0.25,
+      "bulletHeight": 0.25,
+      "trailEffect": "fire",
+      "speed": 3,
+      "incendAmount": 2,
+      "incendSpread": 5,
+      "ammoMultiplier": 3,
+    }
+  }
+}
