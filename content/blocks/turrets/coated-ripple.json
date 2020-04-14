@@ -99,7 +99,7 @@
       "backColor": "000000",
       "hitSound": "none",
       "hitShake": 0,
-      "hitEffect": "none"
+      "hitEffect": "none",
       "damage": 1,
       "bulletWidth": 0.25,
       "bulletHeight": 0.25,
