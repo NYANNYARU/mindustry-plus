@@ -106,7 +106,6 @@
       "trailEffect": "fire",
       "speed": 5,
       "incendAmount": 2,
-      "incendSpread": 5,
       "ammoMultiplier": 4,
     }
   },
