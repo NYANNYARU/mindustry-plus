@@ -11,6 +11,7 @@
     {"item": "silicon", "amount": 750}
 	],
 	"launchPeriod": 10,
+	"configureObjective": "Launched",
 	"requirements": [
 		{
 			"type": "Launched",
