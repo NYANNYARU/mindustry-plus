@@ -1,5 +1,10 @@
 {
   "ammo":{
+    "graphite": "artilleryDense",
+    "pyratite": "artlleryIncendiary",
+    "silicon": "artilleryHoming",
+    "blast-compound": "artilleryExplosive",
+    "plastanium": "artilleryPlasticFrag",
     "coal": {
        "type": "ArtilleryBulletType",
       "frontColor": "222222",
