@@ -1,1 +1,37 @@
-
+{
+	"name": "River Bridge Buttle",
+	"description": "bridge",
+	"startingItems": [
+		{"item": "copper", "amount": 1000},
+		{"item": "lead", "amount": 1000},
+    {"item": "metaglass", "amount": 500},
+		{"item": "graphite", "amount": 500},
+    {"item": "titanium", "amount": 500},
+    {"item": "thorium", "amount": 200},
+    {"item": "silicon", "amount": 750}
+	],
+	"launchPeriod": 10,
+	"requirements": [
+		{
+			"type": "Launched",
+			"zone": "overgrowth", 
+		},
+		{
+			"type": "Unlock",
+			"block": "blast-drill"
+		},
+    {
+			"type": "Unlock",
+			"block": "coated-ripple"
+		},
+    {
+			"type": "Unlock",
+			"block": "coated-duo"
+		},
+    {
+			"type": "Unlock",
+			"block": "coated-lancer"
+		},
+	],
+	"resources": ["copper", "lead", "coal", "iron", "titanium", "sand", "thorium", "gold", "diamond"]
+}
