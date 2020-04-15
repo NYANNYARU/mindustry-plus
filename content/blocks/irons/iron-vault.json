@@ -1,0 +1,16 @@
+{
+	"type": "Vault",
+	"name": "iron-vault",
+	"description": "iron vault",
+	"health": 1000,
+	"size": 3,
+	"hasItems": true,
+	"requirements": [
+		{ "item": "titanium", "amount": 250 },
+		{ "item": "thorium", "amount": 250 },
+		{ "item": "iron-plate", "amount": 100 },
+	],
+	"itemCapacity": 2000,
+	"category": "effect",
+	"research": "vault"
+}
