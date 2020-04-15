@@ -1,0 +1,16 @@
+{
+	"type": "Vault",
+	"name": "diamond-vault",
+	"description": "diamond vault",
+	"health": 4000,
+	"size": 3,
+	"hasItems": true,
+	"requirements": [
+		{ "item": "titanium", "amount": 250 },
+		{ "item": "thorium", "amount": 250 },
+		{ "item": "diamond-plate", "amount": 100 },
+	],
+	"itemCapacity": 8000,
+	"category": "effect",
+	"research": "gold-vault"
+}
