@@ -1,0 +1,32 @@
+{
+            "type": "MendProjector",
+            "name": "coated-mender-projector",
+            "description": "coated mender projector",
+            "size": 2,
+            "reload": 400,
+            "range": 115,
+            "healPercent": 25,
+            "phaseBoost": 16,
+            "phaseRangeBoost": 75,
+            "health": 800,
+            "consumes": {
+              "power": 1.75,
+              "items": {
+                "items": [
+                  { "item": "phase-fabric", "amount": 1 },
+                ],
+                "optional": true,
+                "booster": true
+              }
+            },
+            "requirements": [
+              { "item": "lead", "amount": 120 },
+              { "item": "titanium", "amount": 50 },
+              { "item": "silicon", "amount": 60 },
+              { "item": "iron-high-density-plate", "amount": 5 },
+              { "item": "gold-high-density-plate", "amount": 5 },
+              { "item": "diamond-high-density-plate", "amount": 5 },
+            ],
+            "category": "effect",
+            "research": "mender-projector"
+}
