@@ -28,5 +28,5 @@
               { "item": "diamond-high-density-plate", "amount": 5 },
             ],
             "category": "effect",
-            "research": "mender-projector"
+            "research": "mend-projector"
 }
