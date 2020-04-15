@@ -3,7 +3,7 @@
             "name": "coated-mender",
             "description": "coated mender",
             "size": 1,
-            "reload": 150,
+            "reload": 300,
             "range": 80,
             "healPercent": 8,
             "phaseBoost": 8,
