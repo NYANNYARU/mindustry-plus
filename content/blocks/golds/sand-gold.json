@@ -14,7 +14,7 @@
 		"power": 0.5,
 		"items": {
 			"items": [
-				{ "item": "sand", "amount": 100 }
+				{ "item": "sand", "amount": 30 }
 			]
 		}
 	},
