@@ -1,0 +1,38 @@
+{
+  "type": "NuclearReactor",
+  "name": "plutonium-reactor",
+  "description": "use plutonium238 reactor",
+  "size": 4,
+  "itemCapacity": 15,
+  "consumesPower": false,
+	"outputsPower": true,
+  "update": true,
+	"solid": true,
+	"hasPower": true,
+  "explosionRadius": 2000,
+  "health": 1000,
+  "itemDuration": 360,
+  "lightColor": "AA0000",
+  "heating": 0.1,
+  "explosionDamage": 10000,
+  "powerProduction": 333.333333333,
+  "coolantPower": 0.10,
+  "consumes": {
+    "items": [
+      { "item": "plutonium238", "amount": 1 }
+    ],
+    "liquid": {
+			"liquid": "cryofluid",
+			"amount": 1.25
+		}
+  },
+  "requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "iron-high-density-plate", "amount": 150 },
+		{ "item": "graphite", "amount": 150 },
+		{ "item": "thorium", "amount": 250 },
+		{ "item": "diamond", "amount": 25 }
+	],
+  "category": "power",
+  "research": "thorium-reactor"
+}
