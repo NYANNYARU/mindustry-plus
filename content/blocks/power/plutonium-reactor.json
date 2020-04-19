@@ -13,6 +13,7 @@
   "health": 1000,
   "itemDuration": 360,
   "lightColor": "250000",
+  "hotColor": "ff0000a5",
   "heating": 0.1,
   "explosionDamage": 10000,
   "powerProduction": 333.333333333,
