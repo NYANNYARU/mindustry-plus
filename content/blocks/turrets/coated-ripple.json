@@ -33,7 +33,7 @@
       "speed": 5,
       "knockback": 1,
       "homingPower": 1000,
-      "homingRange": 100,
+      "homingRange": 200,
       "ammoMultiplier": 4,
       "splashDamage": 50,
       "splashDamageRadius": 40
