@@ -8,7 +8,7 @@
   "smokeThreshold": 0.30,
   "consumesPower": false,
 	"outputsPower": true,
-  "update": false,
+  "update": true,
 	"solid": true,
 	"hasPower": true,
   "explosionRadius": 100,
