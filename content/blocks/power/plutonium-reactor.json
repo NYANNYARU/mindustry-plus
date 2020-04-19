@@ -18,9 +18,11 @@
   "powerProduction": 333.333333333,
   "coolantPower": 0.10,
   "consumes": {
-    "items": [
-      { "item": "plutonium238", "amount": 1 }
-    ],
+    "items": { 
+      "items": [
+        { "item": "plutonium238", "amount": 1 }
+      ],
+    }
     "liquid": {
 			"liquid": "cryofluid",
 			"amount": 1.25
