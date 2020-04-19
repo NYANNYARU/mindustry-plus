@@ -2,7 +2,7 @@
   "type": "NuclearReactor",
   "name": "plutonium-reactor",
   "description": "use plutonium238 reactor",
-  "size": 4,
+  "size": 3,
   "itemCapacity": 15,
   "flashThreshold": 0.76,
   "smokeThreshold": 0.30,
