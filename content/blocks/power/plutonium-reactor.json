@@ -9,7 +9,7 @@
   "update": true,
 	"solid": true,
 	"hasPower": true,
-  "explosionRadius": 2000,
+  "explosionRadius": 100,
   "health": 1000,
   "itemDuration": 360,
   "lightColor": "250000",
