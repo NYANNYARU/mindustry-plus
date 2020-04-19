@@ -15,7 +15,7 @@
   "lightColor": "250000",
   "hotColor": "ff0000",
   "heating": 0.1,
-  "explosionDamage": 9999,
+  "explosionDamage": 7500,
   "powerProduction": 333.333333333,
   "coolantPower": 0.20,
   "consumes": {
