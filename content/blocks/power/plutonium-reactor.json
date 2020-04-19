@@ -8,7 +8,6 @@
   "outputsPower": true,
   "update": true,
   "solid": true,
-  "rebuildable": true,
   "hasPower": true,
   "explosionRadius": 100,
   "health": 1000,
@@ -16,7 +15,7 @@
   "lightColor": "250000",
   "hotColor": "ff0000",
   "heating": 0.1,
-  "explosionDamage": 10000,
+  "explosionDamage": 5000,
   "powerProduction": 333.333333333,
   "coolantPower": 0.20,
   "consumes": {
