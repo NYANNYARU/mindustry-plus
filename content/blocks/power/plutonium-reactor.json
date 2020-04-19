@@ -12,7 +12,7 @@
   "explosionRadius": 2000,
   "health": 1000,
   "itemDuration": 360,
-  "lightColor": "AA0000",
+  "lightColor": "250000",
   "heating": 0.1,
   "explosionDamage": 10000,
   "powerProduction": 333.333333333,
