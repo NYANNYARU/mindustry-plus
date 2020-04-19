@@ -4,8 +4,6 @@
   "description": "use plutonium238 reactor",
   "size": 4,
   "itemCapacity": 15,
-  "flashThreshold": 0.76,
-  "smokeThreshold": 0.30,
   "consumesPower": false,
 	"outputsPower": true,
   "update": true,
@@ -24,12 +22,12 @@
     "items": { 
       "items": [
         { "item": "plutonium238", "amount": 1 }
-      ],
+      ]
     },
     "liquid": {
 			"liquid": "cryofluid",
 			"amount": 0.5
-		}
+    }
   },
   "requirements": [
 		{ "item": "lead", "amount": 250 },
