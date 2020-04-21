@@ -2,7 +2,7 @@
   "name": "iron-dart",
   "drillPower": 4,
   "mineSpeed": 900,
-  "speed": "0.75",
+  "speed": 0.75,
   "drag": 0.075,
   "health": 800,
   "weaponOffsetX": -1,
