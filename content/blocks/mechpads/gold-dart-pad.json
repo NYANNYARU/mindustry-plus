@@ -2,7 +2,7 @@
   "type": "MechPad",
   "name": "gold-dart-mech-pad",
   "description": "advanced dart",
-  "size": "2",
+  "size": 2,
   "mech": "gold-dart",
   "consumes": {
     "power": 0.75,
