@@ -1,7 +1,8 @@
 {
   "name": "iron-dart",
   "drillPower": 2,
-  "speed": "0.6",
+  "mineSpeed": 600,
+  "speed": 0.6,
   "drag": 0.09,
   "health": 400,
   "weaponOffsetX": -1,
@@ -19,6 +20,8 @@
       "type": "BasicBulletType",
       "damage": 18,
       "speed": 3,
+      "frontColor": "FFFFFF",
+      "backColor": "CCCCCC",
       "bulletWidth": 9,
       "bulletHeight": 11,
       "lifetime": 70,
