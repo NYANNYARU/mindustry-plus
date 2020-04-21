@@ -1,7 +1,7 @@
 {
   "type": "MechPad",
   "name": "iron-dart-mech-pad",
-  "description": "upgrade dart",
+  "description": "upgraded dart",
   "size": "2",
   "mech": "iron-dart",
   "consumes": {
