@@ -2,7 +2,7 @@
   "type": "MechPad",
   "name": "iron-dart-mech-pad",
   "description": "upgraded dart",
-  "size": "2",
+  "size": 2,
   "mech": "iron-dart",
   "consumes": {
     "power": 0.75,
