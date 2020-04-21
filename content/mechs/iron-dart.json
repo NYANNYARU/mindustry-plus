@@ -1,0 +1,29 @@
+{
+  "name": "iron-dart",
+  "drillPower": 2,
+  "speed": "0.6",
+  "drag": 0.09,
+  "health": 400,
+  "weaponOffsetX": -1,
+  "weaponOffsetY": -1,
+  "engineColor": "DDDDDD",
+  "cellTrnsY": 1,
+  "buildPower": 2.2,
+  "weapon": {
+    "name": "iron-blaster",
+    "length": 1.5,
+    "reload": 15,
+    "alternate": true,
+    "ejectEffect": "shellEjectSmall",
+    "bullet": {
+      "type": "BasicBulletType",
+      "damage": 18,
+      "speed": 3,
+      "bulletWidth": 9,
+      "bulletHeight": 11,
+      "lifetime": 70,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke"
+    }
+  }
+}
