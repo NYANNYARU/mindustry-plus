@@ -1,0 +1,32 @@
+{
+  "name": "diamond-dart",
+  "drillPower": 5,
+  "mineSpeed": 1200,
+  "speed": 1,
+  "drag": 0.05,
+  "health": 1600,
+  "weaponOffsetX": -1,
+  "weaponOffsetY": -1,
+  "engineColor": "00FFFF",
+  "cellTrnsY": 1,
+  "buildPower": 8.8,
+  "weapon": {
+    "name": "diamond-blaster",
+    "length": 1.5,
+    "reload": 15,
+    "alternate": true,
+    "ejectEffect": "shellEjectSmall",
+    "bullet": {
+      "type": "BasicBulletType",
+      "damage": 72,
+      "speed": 3,
+      "bulletWidth": 11,
+      "bulletHeight": 13,
+      "frontColor": "00FFFF",
+      "backColor": "00CCCC",
+      "lifetime": 100,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke"
+    }
+  }
+}
