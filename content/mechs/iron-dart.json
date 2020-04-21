@@ -1,6 +1,6 @@
 {
   "name": "iron-dart",
-  "drillPower": 2,
+  "drillPower": 3,
   "mineSpeed": 600,
   "speed": 0.6,
   "drag": 0.09,
