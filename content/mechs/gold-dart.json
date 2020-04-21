@@ -4,6 +4,7 @@
   "mineSpeed": 900,
   "speed": 0.75,
   "drag": 0.075,
+  "flying": true,
   "health": 800,
   "weaponOffsetX": -1,
   "weaponOffsetY": -1,
