@@ -3,6 +3,7 @@
   "drillPower": 3,
   "mineSpeed": 600,
   "speed": 0.6,
+  "flying": true,
   "drag": 0.09,
   "health": 400,
   "weaponOffsetX": -1,
