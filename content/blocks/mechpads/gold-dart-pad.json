@@ -14,5 +14,5 @@
     { "item": "gold-plate", "amount": 50 }
   ],
   "category": "upgrade",
-  "research": "iron-dart-mech-pad"
+  "research": "iron-dart-pad"
 }
