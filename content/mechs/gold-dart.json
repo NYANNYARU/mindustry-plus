@@ -1,0 +1,32 @@
+{
+  "name": "iron-dart",
+  "drillPower": 4,
+  "mineSpeed": 900,
+  "speed": "0.75",
+  "drag": 0.075,
+  "health": 800,
+  "weaponOffsetX": -1,
+  "weaponOffsetY": -1,
+  "engineColor": "FFFF00",
+  "cellTrnsY": 1,
+  "buildPower": 4.4,
+  "weapon": {
+    "name": "gold-blaster",
+    "length": 1.5,
+    "reload": 15,
+    "alternate": true,
+    "ejectEffect": "shellEjectSmall",
+    "bullet": {
+      "type": "BasicBulletType",
+      "damage": 36,
+      "speed": 3,
+      "bulletWidth": 10,
+      "bulletHeight": 12,
+      "frontColor": "FFFF00",
+      "backColor": "CCCC00",
+      "lifetime": 80,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke"
+    }
+  }
+}
