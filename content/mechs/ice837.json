@@ -12,6 +12,7 @@
   "buildPower": 10,
   "weapon": {
     "length": 3,
+    "width": 0, 
     "reload": 60,
     "alternate": true,
     "ejectEffect": "lancerLaserCharge",
