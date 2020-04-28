@@ -3,7 +3,7 @@
   "name": "ice837-mech-pad",
   "description": "beamer",
   "size": 3,
-  "mech": "diamond-dart",
+  "mech": "ice837",
   "consumes": {
     "power": 1,
   },
