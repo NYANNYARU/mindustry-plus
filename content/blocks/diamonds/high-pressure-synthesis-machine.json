@@ -22,8 +22,7 @@
 		},
 		"items": {
 			"items": [
-				{ "item": "graphite", "amount": 10 },
-				{ "item": "titanium", "amount": 5 }
+				{ "item": "graphite", "amount": 10 }
 			]
 		},
 	},
