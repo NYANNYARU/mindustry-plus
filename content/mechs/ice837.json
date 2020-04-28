@@ -3,7 +3,7 @@
   "name": "ice837",
   "drillPower": 6,
   "mineSpeed": 2000,
-  "speed": 0.04,
+  "speed": 0.25,
   "mass": 20,
   "flying": true,
   "health": 5000,
