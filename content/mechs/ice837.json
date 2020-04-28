@@ -1,1 +1,20 @@
 
+{
+  "name": "iron-dart",
+  "drillPower": 6,
+  "mineSpeed": 2000,
+  "speed": 0.1,
+  "flying": true,
+  "health": 5000,
+  "engineColor": "CC0000",
+  "cellTrnsY": 1,
+  "buildPower": 10,
+  "weapon": {
+    "length": 3,
+    "reload": 60,
+    "alternate": true,
+    "ejectEffect": "lancerLaserCharge",
+    "bullet": "lancerLaser"
+    }
+  }
+}
