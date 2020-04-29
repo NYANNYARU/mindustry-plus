@@ -18,7 +18,7 @@
     "reload": 60,
     "alternate": true,
     "ejectEffect": "lancerLaserCharge",
-    "shootSound": "beam",
+    "shootSound": "laser",
     "bullet": "lancerLaser"
   }
 }
