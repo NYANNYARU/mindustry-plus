@@ -11,7 +11,7 @@
   "cellTrnsY": 1,
   "hitsize": 17.5,
   "engineOffset": 20,
-  "engineSize": 5,
+  "engineSize": 12.5,
   "buildPower": 10,
   "weapon": {
     "length": 15,
