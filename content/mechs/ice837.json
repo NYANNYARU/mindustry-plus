@@ -15,8 +15,9 @@
   "buildPower": 10,
   "weapon": {
     "length": 15,
-    "width": 0, 
+    "width": 0,
     "reload": 60,
+    "shots": 3,
     "alternate": true,
     "ejectEffect": "lancerLaserCharge",
     "shootSound": "laser",
