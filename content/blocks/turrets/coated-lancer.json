@@ -1,5 +1,5 @@
 {
-  "type": "ChargeTurret",
+  "type": "ItemTurret",
   "name": "coated-lancer",
   "description": "coated lancer",
   "range": 180,
