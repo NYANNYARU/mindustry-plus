@@ -14,9 +14,11 @@
   "size": 2,
   "health": 3000,
   "targetAir": true,
+  "shootType": "lancerLaser",
   "shootSound": "laser",
   "consumes": {
     "Power": 3.5,
+  },
   "requirements": [
 		{ "item": "copper", "amount": 50 },
     { "item": "lead", "amount": 100 },
