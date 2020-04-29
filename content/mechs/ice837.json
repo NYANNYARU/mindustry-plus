@@ -9,13 +9,16 @@
   "health": 5000,
   "engineColor": "CC0000",
   "cellTrnsY": 1,
+  "hitsize": 17.5,
+  "engineOffset": 20,
   "buildPower": 10,
   "weapon": {
-    "length": 3,
+    "length": 15,
     "width": 0, 
     "reload": 60,
     "alternate": true,
     "ejectEffect": "lancerLaserCharge",
+    "shootSound": "beam",
     "bullet": "lancerLaser"
   }
 }
