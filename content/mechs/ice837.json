@@ -18,7 +18,7 @@
     "width": 0,
     "reload": 60,
     "shots": 3,
-    "shotDelay": 2,
+    "shotDelay": 10,
     "spacing": 0,
     "alternate": true,
     "ejectEffect": "lancerLaserCharge",
