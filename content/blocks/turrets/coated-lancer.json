@@ -18,7 +18,7 @@
   "shootSound": "laser",
   "hasPower": true,
   "consumes": {
-    "Power": 3.5,
+    "power": 3.5,
   },
   "requirements": [
 		{ "item": "copper", "amount": 50 },
