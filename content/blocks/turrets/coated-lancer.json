@@ -16,6 +16,7 @@
   "targetAir": true,
   "shootType": "lancerLaser",
   "shootSound": "laser",
+  "hasPower": true,
   "consumes": {
     "Power": 3.5,
   },
