@@ -16,9 +16,9 @@
   "weapon": {
     "length": 15,
     "width": 0,
-    "reload": 60,
+    "reload": 120,
     "shots": 3,
-    "shotDelay": 10,
+    "shotDelay": 6,
     "spacing": 0,
     "alternate": true,
     "ejectEffect": "lancerLaserCharge",
