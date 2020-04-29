@@ -2,7 +2,7 @@
 {
   "name": "ice837",
   "drillPower": 6,
-  "mineSpeed": 2000,
+  "mineSpeed": 15,
   "speed": 0.25,
   "mass": 20,
   "flying": true,
@@ -11,6 +11,7 @@
   "cellTrnsY": 1,
   "hitsize": 17.5,
   "engineOffset": 20,
+  "engineSize": 5,
   "buildPower": 10,
   "weapon": {
     "length": 15,
