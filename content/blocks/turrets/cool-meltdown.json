@@ -14,6 +14,9 @@
   "targetAir": true,
   "heatColor": "ff0000",
   "hasPower": true,
+  "shootEffect": "lancerLaserShoot",
+  "smokeEffect": "lancerLaserShootSmoke",
+  "shootSound": "laser",
   "ammo": {
     "graphite": "lancerLaser"
   },
