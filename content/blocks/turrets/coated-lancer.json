@@ -7,7 +7,7 @@
   "recoil": 1,
   "shots": 3,
   "spread": 0,
-  "shotDelay": 10,
+  "burstSpacing": 10,
   "reload": 80,
   "cooldown": 0.01,
   "powerUse": 3.5,
