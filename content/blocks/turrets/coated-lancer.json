@@ -8,7 +8,7 @@
   "shots": 3,
   "spacing": 0,
   "shotDelay": 10,
-  "reload": 80,
+  "reload": 60,
   "cooldown": 0.01,
   "powerUse": 3.5,
   "shootEffect": "lancerLaserShoot",
