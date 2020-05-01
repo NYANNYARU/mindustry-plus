@@ -2,7 +2,6 @@
   "type": "LaserTurret",
   "name": "coated-meltdown",
   "description": "coated meltdown",
-  "damege": 1000,
   "health": 7500,
   "shootSound": "laserbig",
   "activeSound": "beam",
