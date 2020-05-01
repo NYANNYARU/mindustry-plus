@@ -14,7 +14,7 @@
   "heatColor": "ff0000",
   "hasPower": true,
   "ammo": {
-    "water": "lancerLaser"
+    "graphite": "lancerLaser"
   },
   "requirements": [
     { "item": "copper", "amount": 750 },
