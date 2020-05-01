@@ -17,7 +17,7 @@
   "shootType": "lancerLaser",
   "shootSound": "laser",
   "hasPower": true,
-  "consumes": {
+  "ammo": {
     "power": 3.5,
   },
   "requirements": [
