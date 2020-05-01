@@ -6,7 +6,7 @@
   "shootSound": "laserbig",
   "activeSound": "beam",
   "range": 180,
-  "reload": 900,
+  "reload": 480,
   "shots": 50,
   "burstSpacing": 3,
   "size": 4,
