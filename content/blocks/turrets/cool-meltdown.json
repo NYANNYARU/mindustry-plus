@@ -7,7 +7,7 @@
   "activeSound": "beam",
   "range": 180,
   "reload": 900,
-  "shots": 300,
+  "shots": 100,
   "burstSpacing": 3,
   "size": 4,
   "targetAir": true,
