@@ -13,7 +13,7 @@
   "hasPower": true,
   "firingMoveFract": 0.75,
   "shootDuration": 300,
-  "shootType": "arc",
+  "shootType": "lancerLaser",
   "powerUse": 10,
   "coolantMultiplier": 150,
   "requirements": [
