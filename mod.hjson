@@ -1,7 +1,6 @@
-name: "mindustry+"
-displayName: "iron gold diamond"
-author: "NYAMI NYARU"
-description: "have a good time"
-version: "4"
-minGameVersion: "110"
-
+{
+  "name": "mindustry+",
+  "author": "NYAMINYARU",
+  "description": "mindustry+",
+  "version": "3.0"
+}
